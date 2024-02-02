@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="VRMSpringBone" load_steps=2 format=3 uid="uid://b83ks2mej0b4x"]
+
+[ext_resource type="Script" path="res://addons/vrm/vrm_spring_bone.gd" id="1_i5sm2"]
+
+[resource]
+resource_name = "Bust"
+script = ExtResource("1_i5sm2")
+comment = "Bust"
+joint_nodes = PackedStringArray("J_Sec_R_Bust1", "J_Sec_R_Bust2", "")
+stiffness_force = PackedFloat64Array(32, 32, 32)
+gravity_power = PackedFloat64Array(0, 0, 0)
+gravity_dir = PackedVector3Array(0, -1, 0, 0, -1, 0, 0, -1, 0)
+drag_force = PackedFloat64Array(0.05, 0.05, 0.05)
+hit_radius = PackedFloat64Array(0.02006, 0.02006, 0.02006)
+center_bone = "Root_"
+center_node = NodePath("")
+collider_groups = Array[Resource("res://addons/vrm/vrm_collider_group.gd")]([])
