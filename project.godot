@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="VRM Game Project"
-run/main_scene="res://black_cat_fire_base.tscn"
+run/main_scene="res://SK_merge_tool_01/scenes/black_cat_fire_base.tscn"
 config/features=PackedStringArray("4.3", "Double Precision", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://SK_merge_tool_01/art/icon.svg"
 
 [editor_plugins]
 

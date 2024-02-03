@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxpwriiuhlcbo"
-path="res://.godot/imported/Black Cat Fire Base.vrm-945ce5e83f5f96b8668c39ce062447c3.scn"
+path="res://.godot/imported/Black Cat Fire Base.vrm-f2843e661b8b02a4ffba662726d88271.scn"
 
 [deps]
 
-source_file="res://Black Cat Fire Base.vrm"
-dest_files=["res://.godot/imported/Black Cat Fire Base.vrm-945ce5e83f5f96b8668c39ce062447c3.scn"]
+source_file="res://SK_merge_tool_01/art/Black Cat Fire Base.vrm"
+dest_files=["res://.godot/imported/Black Cat Fire Base.vrm-f2843e661b8b02a4ffba662726d88271.scn"]
 
 [params]
 
