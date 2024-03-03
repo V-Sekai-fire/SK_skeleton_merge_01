@@ -33,11 +33,7 @@ func find_bone_attachments(target_skel: Skeleton3D) -> Array[BoneAttachment3D]:
 	var res: Array[BoneAttachment3D]
 	for attachment_node in find_children("*", "BoneAttachment3D", true):
 		var attachment := attachment_node as BoneAttachment3D
-		if attachment.get_use_external_skeleton():
-			var extern_skel: Skeleton3D = attachment.get_node_or_null(attachment.get_external_skeleton()) as Skeleton3D
-			if extern_skel == self or extern_skel == target_skel:
-				res.append(attachment)
-		elif attachment.get_parent() == self:
+		if attachment.get_parent() == self:
 			res.append(attachment)
 	return res
 
