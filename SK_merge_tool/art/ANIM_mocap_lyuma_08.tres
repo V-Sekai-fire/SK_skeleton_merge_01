@@ -3,6 +3,7 @@
 [resource]
 length = 46.3023
 loop_mode = 1
+step = 1.0
 tracks/0/type = "rotation_3d"
 tracks/0/imported = false
 tracks/0/enabled = true
