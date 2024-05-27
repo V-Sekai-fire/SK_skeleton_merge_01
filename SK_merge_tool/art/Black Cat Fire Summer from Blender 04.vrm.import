@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dxpwriiuhlcbo"
-path="res://.godot/imported/Black Cat Fire Base.vrm-e9020f85d1e60e83d42f6071bf976eb6.scn"
+uid="uid://bh4bt2460cfyv"
+path="res://.godot/imported/Black Cat Fire Summer from Blender 04.vrm-8a162da94934bb81a3372046b6939e20.scn"
 
 [deps]
 
-source_file="res://SK_merge_tool/art/Black Cat Fire Base.vrm"
-dest_files=["res://.godot/imported/Black Cat Fire Base.vrm-e9020f85d1e60e83d42f6071bf976eb6.scn"]
+source_file="res://SK_merge_tool/art/Black Cat Fire Summer from Blender 04.vrm"
+dest_files=["res://.godot/imported/Black Cat Fire Summer from Blender 04.vrm-8a162da94934bb81a3372046b6939e20.scn"]
 
 [params]
 
