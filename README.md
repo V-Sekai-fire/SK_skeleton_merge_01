@@ -1,1 +1,0 @@
-# VRM Game Project
