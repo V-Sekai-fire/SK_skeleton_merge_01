@@ -12,7 +12,7 @@ config_version=5
 
 config/name="VRM Game Project"
 run/main_scene="res://SK_merge_tool/scenes/black_cat_fire_base_01.tscn"
-config/features=PackedStringArray("4.3", "Double Precision", "Forward Plus")
+config/features=PackedStringArray("4.4", "Double Precision", "Forward Plus")
 config/icon="res://SK_merge_tool/art/icon.svg"
 
 [editor_plugins]
