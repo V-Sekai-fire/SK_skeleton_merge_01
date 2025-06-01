@@ -1,11 +1,11 @@
 [gd_scene load_steps=183 format=3 uid="uid://b6qkolaqod385"]
 
 [ext_resource type="PackedScene" uid="uid://dxpwriiuhlcbo" path="res://SK_merge_tool/art/Black Cat Fire Base.vrm" id="1_ckjot"]
-[ext_resource type="Script" path="res://addons/vrm/vrm_spring_bone.gd" id="2_clmvd"]
-[ext_resource type="Script" path="res://addons/vrm/vrm_collider_group.gd" id="3_5lfuy"]
-[ext_resource type="Script" path="res://addons/vrm/vrm_collider.gd" id="4_x2io1"]
+[ext_resource type="Script" uid="uid://ba3ef6cbarj8j" path="res://addons/vrm/vrm_spring_bone.gd" id="2_clmvd"]
+[ext_resource type="Script" uid="uid://ckr8krhsaotkg" path="res://addons/vrm/vrm_collider_group.gd" id="3_5lfuy"]
+[ext_resource type="Script" uid="uid://bmih61llrs5pd" path="res://addons/vrm/vrm_collider.gd" id="4_x2io1"]
 [ext_resource type="PackedScene" uid="uid://b315t5p7i0m40" path="res://SK_merge_tool/scenes/black_cat_fire_summer_from_blender_04.tscn" id="5_irrcc"]
-[ext_resource type="Script" path="res://addons/skeleton_merge_tool/merged_skeleton.gd" id="6_3u02g"]
+[ext_resource type="Script" uid="uid://dk1dl2w4xrn1i" path="res://addons/skeleton_merge_tool/merged_skeleton.gd" id="6_3u02g"]
 [ext_resource type="Animation" uid="uid://djjjfn1fylrse" path="res://SK_merge_tool/art/ANIM_mocap_lyuma_08.tres" id="7_ubker"]
 
 [sub_resource type="Resource" id="Resource_74dsk"]
@@ -1048,14 +1048,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_sjv4r"]
+[sub_resource type="Resource" id="Resource_qmx4j"]
 resource_name = "Bust"
 script = ExtResource("2_clmvd")
 comment = "Bust"
 joint_nodes = PackedStringArray("J_Sec_L_Bust1", "J_Sec_L_Bust2", "")
 stiffness_scale = 4.0
 drag_force_scale = 0.05
-hit_radius_scale = 0.0172614
+hit_radius_scale = 0.01726144924759864
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1067,14 +1067,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_rsaxe"]
+[sub_resource type="Resource" id="Resource_xtap5"]
 resource_name = "Bust"
 script = ExtResource("2_clmvd")
 comment = "Bust"
 joint_nodes = PackedStringArray("J_Sec_R_Bust1", "J_Sec_R_Bust2", "")
 stiffness_scale = 4.0
 drag_force_scale = 0.05
-hit_radius_scale = 0.0172614
+hit_radius_scale = 0.01726144924759864
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1086,14 +1086,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_fbd3j"]
+[sub_resource type="Resource" id="Resource_k46uy"]
 resource_name = "CatEar"
 script = ExtResource("2_clmvd")
 comment = "CatEar"
 joint_nodes = PackedStringArray("J_Opt_L_CatEar2_01", "J_Opt_L_CatEar2_end_01", "")
 stiffness_scale = 4.0
 drag_force_scale = 0.05
-hit_radius_scale = 0.0204523
+hit_radius_scale = 0.020452298
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1105,14 +1105,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_p7pre"]
+[sub_resource type="Resource" id="Resource_deyx6"]
 resource_name = "CatEar"
 script = ExtResource("2_clmvd")
 comment = "CatEar"
 joint_nodes = PackedStringArray("J_Opt_R_CatEar2_01", "J_Opt_R_CatEar2_end_01", "")
 stiffness_scale = 4.0
 drag_force_scale = 0.05
-hit_radius_scale = 0.0204523
+hit_radius_scale = 0.020452298
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1124,91 +1124,91 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_hljkw"]
+[sub_resource type="Resource" id="Resource_toaaw"]
 resource_name = "LeftUpperLeg"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftUpperLeg"
-offset = Vector3(7.45058e-09, 0, 9.31323e-10)
-tail = Vector3(7.45058e-09, 0, 9.31323e-10)
-radius = 0.0792793
+offset = Vector3(7.450581e-09, 0, 9.313226e-10)
+tail = Vector3(7.450581e-09, 0, 9.313226e-10)
+radius = 0.07927930955145879
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_ifp35"]
+[sub_resource type="Resource" id="Resource_kmigo"]
 resource_name = "LeftUpperLeg"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftUpperLeg"
-offset = Vector3(0.00209961, 0.117415, -0.00202137)
-tail = Vector3(0.00209961, 0.117415, -0.00202137)
-radius = 0.0792793
+offset = Vector3(0.0020996109, 0.11741471, -0.0020213719)
+tail = Vector3(0.0020996109, 0.11741471, -0.0020213719)
+radius = 0.07927930955145879
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_t0uuu"]
+[sub_resource type="Resource" id="Resource_0kc06"]
 resource_name = "LeftUpperLeg"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftUpperLeg"
-offset = Vector3(0.00384928, 0.21526, -0.00370585)
-tail = Vector3(0.00384928, 0.21526, -0.00370585)
-radius = 0.0792793
+offset = Vector3(0.0038492754, 0.21526027, -0.0037058517)
+tail = Vector3(0.0038492754, 0.21526027, -0.0037058517)
+radius = 0.07927930955145879
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_8a0qu"]
+[sub_resource type="Resource" id="Resource_w0u16"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_hljkw"), SubResource("Resource_ifp35"), SubResource("Resource_t0uuu")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_toaaw"), SubResource("Resource_kmigo"), SubResource("Resource_0kc06")])
 
-[sub_resource type="Resource" id="Resource_6alec"]
+[sub_resource type="Resource" id="Resource_lb0nj"]
 resource_name = "RightUpperLeg"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightUpperLeg"
-offset = Vector3(-7.45058e-09, 0, 2.79397e-09)
-tail = Vector3(-7.45058e-09, 0, 2.79397e-09)
-radius = 0.0792793
+offset = Vector3(-7.450581e-09, 0, 2.7939677e-09)
+tail = Vector3(-7.450581e-09, 0, 2.7939677e-09)
+radius = 0.07927932530283677
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_5ohkq"]
+[sub_resource type="Resource" id="Resource_g6vt2"]
 resource_name = "RightUpperLeg"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightUpperLeg"
-offset = Vector3(-0.00209975, 0.117415, -0.00202137)
-tail = Vector3(-0.00209975, 0.117415, -0.00202137)
-radius = 0.0792793
+offset = Vector3(-0.0020997524, 0.11741471, -0.0020213695)
+tail = Vector3(-0.0020997524, 0.11741471, -0.0020213695)
+radius = 0.07927932530283677
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_j5l7c"]
+[sub_resource type="Resource" id="Resource_ayo34"]
 resource_name = "RightUpperLeg"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightUpperLeg"
-offset = Vector3(-0.00384954, 0.21526, -0.00370585)
-tail = Vector3(-0.00384954, 0.21526, -0.00370585)
-radius = 0.0792793
+offset = Vector3(-0.0038495436, 0.21526027, -0.0037058475)
+tail = Vector3(-0.0038495436, 0.21526027, -0.0037058475)
+radius = 0.07927932530283677
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_2nbk6"]
+[sub_resource type="Resource" id="Resource_hbsx4"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_6alec"), SubResource("Resource_5ohkq"), SubResource("Resource_j5l7c")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_lb0nj"), SubResource("Resource_g6vt2"), SubResource("Resource_ayo34")])
 
-[sub_resource type="Resource" id="Resource_oplaw"]
+[sub_resource type="Resource" id="Resource_gxwbl"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtBack1_01", "J_Sec_L_SkirtBack2_01", "J_Sec_L_SkirtBack2_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1217,17 +1217,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_dgopc"]
+[sub_resource type="Resource" id="Resource_k02hn"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtFront1_01", "J_Sec_L_SkirtFront2_01", "J_Sec_L_SkirtFront2_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1236,17 +1236,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_f1jri"]
+[sub_resource type="Resource" id="Resource_8tgh7"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtSide1_01", "J_Sec_L_SkirtSide2_01", "J_Sec_L_SkirtSide2_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1255,17 +1255,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_tr0ej"]
+[sub_resource type="Resource" id="Resource_2vt22"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtBack1_01", "J_Sec_R_SkirtBack2_01", "J_Sec_R_SkirtBack2_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1274,17 +1274,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_2j5g4"]
+[sub_resource type="Resource" id="Resource_llr3t"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtFront1_01", "J_Sec_R_SkirtFront2_01", "J_Sec_R_SkirtFront2_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1293,17 +1293,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_qgoak"]
+[sub_resource type="Resource" id="Resource_ahgsw"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtSide1_01", "J_Sec_R_SkirtSide2_01", "J_Sec_R_SkirtSide2_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1312,14 +1312,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_lhhxk"]
+[sub_resource type="Resource" id="Resource_8ora0"]
 resource_name = "Sleeve"
 script = ExtResource("2_clmvd")
 comment = "Sleeve"
 joint_nodes = PackedStringArray("J_Sec_L_LowerSleeve_01", "J_Sec_L_LowerSleeve_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.0171804
+hit_radius_scale = 0.01718044281005859
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1331,14 +1331,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_68ilb"]
+[sub_resource type="Resource" id="Resource_forfl"]
 resource_name = "Sleeve"
 script = ExtResource("2_clmvd")
 comment = "Sleeve"
 joint_nodes = PackedStringArray("J_Sec_L_TipSleeve_01", "J_Sec_L_TipSleeve_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.0171804
+hit_radius_scale = 0.01718044281005859
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1350,14 +1350,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_kwb1j"]
+[sub_resource type="Resource" id="Resource_0jqjb"]
 resource_name = "Sleeve"
 script = ExtResource("2_clmvd")
 comment = "Sleeve"
 joint_nodes = PackedStringArray("J_Sec_R_LowerSleeve_01", "J_Sec_R_LowerSleeve_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.0171804
+hit_radius_scale = 0.01718044281005859
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1369,14 +1369,14 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_oyibs"]
+[sub_resource type="Resource" id="Resource_us3jk"]
 resource_name = "Sleeve"
 script = ExtResource("2_clmvd")
 comment = "Sleeve"
 joint_nodes = PackedStringArray("J_Sec_R_TipSleeve_01", "J_Sec_R_TipSleeve_end_01", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.0171804
+hit_radius_scale = 0.01718044281005859
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
 collider_groups = Array[ExtResource("3_5lfuy")]([])
@@ -1388,17 +1388,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_sn3xo"]
+[sub_resource type="Resource" id="Resource_w61md"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtBack1_02", "J_Sec_L_SkirtBack2_02", "J_Sec_L_SkirtBack2_end_02", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1407,17 +1407,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_1v48j"]
+[sub_resource type="Resource" id="Resource_urty0"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtFront1_02", "J_Sec_L_SkirtFront2_02", "J_Sec_L_SkirtFront2_end_02", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1426,17 +1426,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_simmq"]
+[sub_resource type="Resource" id="Resource_cm0b7"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtSide1_02", "J_Sec_L_SkirtSide2_02", "J_Sec_L_SkirtSide2_end_02", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1445,17 +1445,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_6dfxo"]
+[sub_resource type="Resource" id="Resource_31nkg"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtBack1_02", "J_Sec_R_SkirtBack2_02", "J_Sec_R_SkirtBack2_end_02", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1464,17 +1464,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_0ibgm"]
+[sub_resource type="Resource" id="Resource_xivik"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtFront1_02", "J_Sec_R_SkirtFront2_02", "J_Sec_R_SkirtFront2_end_02", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1483,17 +1483,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_i4kyw"]
+[sub_resource type="Resource" id="Resource_eq7sk"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtSide1_02", "J_Sec_R_SkirtSide2_02", "J_Sec_R_SkirtSide2_end_02", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1502,17 +1502,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_6flm4"]
+[sub_resource type="Resource" id="Resource_fiug4"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtBack1_03", "J_Sec_L_SkirtBack2_03", "J_Sec_L_SkirtBack2_end_03", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1521,17 +1521,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_dpv48"]
+[sub_resource type="Resource" id="Resource_u5116"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtFront1_03", "J_Sec_L_SkirtFront2_03", "J_Sec_L_SkirtFront2_end_03", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1540,17 +1540,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_utsq5"]
+[sub_resource type="Resource" id="Resource_1fql6"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_L_SkirtSide1_03", "J_Sec_L_SkirtSide2_03", "J_Sec_L_SkirtSide2_end_03", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1559,17 +1559,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_1uudn"]
+[sub_resource type="Resource" id="Resource_jbent"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtBack1_03", "J_Sec_R_SkirtBack2_03", "J_Sec_R_SkirtBack2_end_03", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1578,17 +1578,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_ms1vv"]
+[sub_resource type="Resource" id="Resource_8j7nj"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtFront1_03", "J_Sec_R_SkirtFront2_03", "J_Sec_R_SkirtFront2_end_03", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1597,17 +1597,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_42yyp"]
+[sub_resource type="Resource" id="Resource_fvnr2"]
 resource_name = "Skirt"
 script = ExtResource("2_clmvd")
 comment = "Skirt"
 joint_nodes = PackedStringArray("J_Sec_R_SkirtSide1_03", "J_Sec_R_SkirtSide2_03", "J_Sec_R_SkirtSide2_end_03", "")
-stiffness_scale = 2.64706
+stiffness_scale = 2.6470563
 drag_force_scale = 0.05
-hit_radius_scale = 0.020758
+hit_radius_scale = 0.02075804397463798
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1616,299 +1616,299 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_bmp4c"]
+[sub_resource type="Resource" id="Resource_vggug"]
 resource_name = "Head"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "Head"
-offset = Vector3(4.62169e-08, 0.102418, -0.0136186)
-tail = Vector3(4.62169e-08, 0.102418, -0.0136186)
-radius = 0.102265
+offset = Vector3(4.6216883e-08, 0.102417946, -0.013618622)
+tail = Vector3(4.6216883e-08, 0.102417946, -0.013618622)
+radius = 0.10226457769204329
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_eg2pb"]
+[sub_resource type="Resource" id="Resource_e7fy1"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_bmp4c")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_vggug")])
 
-[sub_resource type="Resource" id="Resource_8ib64"]
+[sub_resource type="Resource" id="Resource_4ml14"]
 resource_name = "LeftUpperArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftUpperArm"
-offset = Vector3(-2.80887e-05, 0.00978446, 0.000245243)
-tail = Vector3(-2.80887e-05, 0.00978446, 0.000245243)
-radius = 0.0489379
+offset = Vector3(0.0002452433, -2.8088689e-05, 0.00978446)
+tail = Vector3(0.0002452433, -2.8088689e-05, 0.00978446)
+radius = 0.04893785667054466
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_tmkbx"]
+[sub_resource type="Resource" id="Resource_f20p0"]
 resource_name = "LeftUpperArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftUpperArm"
-offset = Vector3(0.0733784, 0.00999379, 0.000295136)
-tail = Vector3(0.0733784, 0.00999379, 0.000295136)
-radius = 0.0489379
+offset = Vector3(0.00029513612, 0.07337837, 0.009993792)
+tail = Vector3(0.00029513612, 0.07337837, 0.009993792)
+radius = 0.04893785667054466
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_7nxfc"]
+[sub_resource type="Resource" id="Resource_qp2q8"]
 resource_name = "LeftUpperArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftUpperArm"
-offset = Vector3(0.146785, 0.0102032, 0.000345029)
-tail = Vector3(0.146785, 0.0102032, 0.000345029)
-radius = 0.0489379
+offset = Vector3(0.00034502894, 0.14678477, 0.010203242)
+tail = Vector3(0.00034502894, 0.14678477, 0.010203242)
+radius = 0.04893785667054466
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_rab30"]
+[sub_resource type="Resource" id="Resource_6fm8e"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_8ib64"), SubResource("Resource_tmkbx"), SubResource("Resource_7nxfc")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_4ml14"), SubResource("Resource_f20p0"), SubResource("Resource_qp2q8")])
 
-[sub_resource type="Resource" id="Resource_wt8k4"]
+[sub_resource type="Resource" id="Resource_6tjlh"]
 resource_name = "RightUpperArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightUpperArm"
-offset = Vector3(-2.80738e-05, -0.00978434, 0.000245186)
-tail = Vector3(-2.80738e-05, -0.00978434, 0.000245186)
-radius = 0.0489378
+offset = Vector3(-0.00024518557, -2.8073788e-05, 0.009784341)
+tail = Vector3(-0.00024518557, -2.8073788e-05, 0.009784341)
+radius = 0.04893784144150248
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_b1el2"]
+[sub_resource type="Resource" id="Resource_4xlce"]
 resource_name = "RightUpperArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightUpperArm"
-offset = Vector3(0.0733784, -0.00999379, 0.000295155)
-tail = Vector3(0.0733784, -0.00999379, 0.000295155)
-radius = 0.0489378
+offset = Vector3(-0.00029515475, 0.073378384, 0.009993792)
+tail = Vector3(-0.00029515475, 0.073378384, 0.009993792)
+radius = 0.04893784144150248
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_uw0es"]
+[sub_resource type="Resource" id="Resource_tbr6c"]
 resource_name = "RightUpperArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightUpperArm"
-offset = Vector3(0.146785, -0.0102031, 0.000345126)
-tail = Vector3(0.146785, -0.0102031, 0.000345126)
-radius = 0.0489378
+offset = Vector3(-0.0003451258, 0.1467848, 0.010203123)
+tail = Vector3(-0.0003451258, 0.1467848, 0.010203123)
+radius = 0.04893784144150248
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_3alpq"]
+[sub_resource type="Resource" id="Resource_cjmwn"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_wt8k4"), SubResource("Resource_b1el2"), SubResource("Resource_uw0es")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_6tjlh"), SubResource("Resource_4xlce"), SubResource("Resource_tbr6c")])
 
-[sub_resource type="Resource" id="Resource_xhxm1"]
+[sub_resource type="Resource" id="Resource_w55ll"]
 resource_name = "LeftLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftLowerArm"
-offset = Vector3(-2.98023e-08, -1.19209e-07, 3.72529e-09)
-tail = Vector3(-2.98023e-08, -1.19209e-07, 3.72529e-09)
-radius = 0.0293627
+offset = Vector3(-1.1920929e-07, -2.9802322e-08, 3.7252903e-09)
+tail = Vector3(-1.1920929e-07, -2.9802322e-08, 3.7252903e-09)
+radius = 0.02936270204634273
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_6ai1j"]
+[sub_resource type="Resource" id="Resource_dccmi"]
 resource_name = "LeftLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftLowerArm"
-offset = Vector3(0.0489375, 0.00014472, 6.01299e-05)
-tail = Vector3(0.0489375, 0.00014472, 6.01299e-05)
-radius = 0.0342565
+offset = Vector3(0.00014472008, 0.04893753, 6.012991e-05)
+tail = Vector3(0.00014472008, 0.04893753, 6.012991e-05)
+radius = 0.03425648572073318
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_g70gc"]
+[sub_resource type="Resource" id="Resource_t0fsk"]
 resource_name = "LeftLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftLowerArm"
-offset = Vector3(0.0978751, 0.000289559, 0.000120258)
-tail = Vector3(0.0978751, 0.000289559, 0.000120258)
-radius = 0.0293627
+offset = Vector3(0.00028955936, 0.09787515, 0.00012025796)
+tail = Vector3(0.00028955936, 0.09787515, 0.00012025796)
+radius = 0.02936270204634273
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_vn0rs"]
+[sub_resource type="Resource" id="Resource_343qm"]
 resource_name = "LeftLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftLowerArm"
-offset = Vector3(0.146813, 0.000434518, 0.000180382)
-tail = Vector3(0.146813, 0.000434518, 0.000180382)
-radius = 0.0293627
+offset = Vector3(0.00043451786, 0.14681265, 0.00018038228)
+tail = Vector3(0.00043451786, 0.14681265, 0.00018038228)
+radius = 0.02936270204634273
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_1r5uv"]
+[sub_resource type="Resource" id="Resource_3aa4m"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_xhxm1"), SubResource("Resource_6ai1j"), SubResource("Resource_g70gc"), SubResource("Resource_vn0rs")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_w55ll"), SubResource("Resource_dccmi"), SubResource("Resource_t0fsk"), SubResource("Resource_343qm")])
 
-[sub_resource type="Resource" id="Resource_w7a1m"]
+[sub_resource type="Resource" id="Resource_0q2ra"]
 resource_name = "RightLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightLowerArm"
-offset = Vector3(-8.9407e-08, 2.38419e-07, 1.86265e-09)
-tail = Vector3(-8.9407e-08, 2.38419e-07, 1.86265e-09)
-radius = 0.0293627
+offset = Vector3(2.3841858e-07, -8.940697e-08, 1.8626451e-09)
+tail = Vector3(2.3841858e-07, -8.940697e-08, 1.8626451e-09)
+radius = 0.02936270613003389
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_0xp5u"]
+[sub_resource type="Resource" id="Resource_b4ygh"]
 resource_name = "RightLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightLowerArm"
-offset = Vector3(0.0489375, -0.000144601, 6.00237e-05)
-tail = Vector3(0.0489375, -0.000144601, 6.00237e-05)
-radius = 0.0342565
+offset = Vector3(-0.00014460087, 0.04893753, 6.002374e-05)
+tail = Vector3(-0.00014460087, 0.04893753, 6.002374e-05)
+radius = 0.03425649048503954
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_6jvik"]
+[sub_resource type="Resource" id="Resource_5qorw"]
 resource_name = "RightLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightLowerArm"
-offset = Vector3(0.0978751, -0.00028944, 0.000120042)
-tail = Vector3(0.0978751, -0.00028944, 0.000120042)
-radius = 0.0293627
+offset = Vector3(-0.00028944016, 0.09787515, 0.00012004189)
+tail = Vector3(-0.00028944016, 0.09787515, 0.00012004189)
+radius = 0.02936270613003389
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_wlg0i"]
+[sub_resource type="Resource" id="Resource_iht5g"]
 resource_name = "RightLowerArm"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightLowerArm"
-offset = Vector3(0.146813, -0.000434279, 0.000180064)
-tail = Vector3(0.146813, -0.000434279, 0.000180064)
-radius = 0.0293627
+offset = Vector3(-0.00043427944, 0.14681268, 0.00018006377)
+tail = Vector3(-0.00043427944, 0.14681268, 0.00018006377)
+radius = 0.02936270613003389
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_k4hd5"]
+[sub_resource type="Resource" id="Resource_aa31u"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_w7a1m"), SubResource("Resource_0xp5u"), SubResource("Resource_6jvik"), SubResource("Resource_wlg0i")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_0q2ra"), SubResource("Resource_b4ygh"), SubResource("Resource_5qorw"), SubResource("Resource_iht5g")])
 
-[sub_resource type="Resource" id="Resource_xfiaq"]
+[sub_resource type="Resource" id="Resource_unytw"]
 resource_name = "LeftHand"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "LeftHand"
-offset = Vector3(0.0195746, 0.000127673, 1.36849e-05)
-tail = Vector3(0.0195746, 0.000127673, 1.36849e-05)
-radius = 0.0293627
+offset = Vector3(1.3684854e-05, 0.019574642, 0.00012767315)
+tail = Vector3(1.3684854e-05, 0.019574642, 0.00012767315)
+radius = 0.02936270518824864
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_mk0sv"]
+[sub_resource type="Resource" id="Resource_waygr"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_xfiaq")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_unytw")])
 
-[sub_resource type="Resource" id="Resource_tqgrx"]
+[sub_resource type="Resource" id="Resource_t3d1p"]
 resource_name = "RightHand"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "RightHand"
-offset = Vector3(0.0195746, -0.000127554, 1.37202e-05)
-tail = Vector3(0.0195746, -0.000127554, 1.37202e-05)
-radius = 0.0293627
+offset = Vector3(-1.3720244e-05, 0.019574583, 0.00012755394)
+tail = Vector3(-1.3720244e-05, 0.019574583, 0.00012755394)
+radius = 0.02936270437988053
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_el7rh"]
+[sub_resource type="Resource" id="Resource_r3qfl"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_tqgrx")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_t3d1p")])
 
-[sub_resource type="Resource" id="Resource_bdgsx"]
+[sub_resource type="Resource" id="Resource_pgcok"]
 resource_name = "UpperChest"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "UpperChest"
-offset = Vector3(-4.07454e-10, 0.00324726, 0.00923313)
-tail = Vector3(-4.07454e-10, 0.00324726, 0.00923313)
-radius = 0.0978757
+offset = Vector3(-4.0745363e-10, 0.003247261, 0.0092331255)
+tail = Vector3(-4.0745363e-10, 0.003247261, 0.0092331255)
+radius = 0.09787568515549812
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_wqmsc"]
+[sub_resource type="Resource" id="Resource_3okrv"]
 resource_name = "UpperChest"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "UpperChest"
-offset = Vector3(0.0489378, 0.0567682, -0.0303408)
-tail = Vector3(0.0489378, 0.0567682, -0.0303408)
-radius = 0.068513
+offset = Vector3(0.048937835, 0.05676818, -0.030340776)
+tail = Vector3(0.048937835, 0.05676818, -0.030340776)
+radius = 0.0685129796088487
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_upn5t"]
+[sub_resource type="Resource" id="Resource_wgvim"]
 resource_name = "UpperChest"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "UpperChest"
-offset = Vector3(-0.0489378, 0.0567682, -0.0303408)
-tail = Vector3(-0.0489378, 0.0567682, -0.0303408)
-radius = 0.068513
+offset = Vector3(-0.048937835, 0.05676818, -0.030340783)
+tail = Vector3(-0.048937835, 0.05676818, -0.030340783)
+radius = 0.0685129796088487
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_lr1mx"]
+[sub_resource type="Resource" id="Resource_4047n"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_bdgsx"), SubResource("Resource_wqmsc"), SubResource("Resource_upn5t")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_pgcok"), SubResource("Resource_3okrv"), SubResource("Resource_wgvim")])
 
-[sub_resource type="Resource" id="Resource_6ltcc"]
+[sub_resource type="Resource" id="Resource_pod7c"]
 resource_name = "Spine"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "Spine"
-offset = Vector3(0, -1.19209e-07, -1.86265e-09)
-tail = Vector3(0, -1.19209e-07, -1.86265e-09)
-radius = 0.117451
+offset = Vector3(0, -1.1920929e-07, -1.8626451e-09)
+tail = Vector3(0, -1.1920929e-07, -1.8626451e-09)
+radius = 0.11745081661958424
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_6axqj"]
+[sub_resource type="Resource" id="Resource_ul2qn"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_6ltcc")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_pod7c")])
 
-[sub_resource type="Resource" id="Resource_ypxj0"]
+[sub_resource type="Resource" id="Resource_ngqxg"]
 resource_name = "Neck"
 script = ExtResource("4_x2io1")
 node_path = NodePath("")
 bone = "Neck"
-offset = Vector3(1.15833e-08, 0.0276357, 0.0161346)
-tail = Vector3(1.15833e-08, 0.0276357, 0.0161346)
-radius = 0.0489378
+offset = Vector3(1.15833245e-08, 0.027635694, 0.01613464)
+tail = Vector3(1.15833245e-08, 0.027635694, 0.01613464)
+radius = 0.04893784096101091
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_4d1rh"]
+[sub_resource type="Resource" id="Resource_k0e82"]
 script = ExtResource("3_5lfuy")
-colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_ypxj0")])
+colliders = Array[ExtResource("4_x2io1")]([SubResource("Resource_ngqxg")])
 
-[sub_resource type="Resource" id="Resource_e0rx0"]
+[sub_resource type="Resource" id="Resource_gudig"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_03", "J_Sec_Hair2_03", "J_Sec_Hair3_03", "")
-stiffness_scale = 0.699013
+stiffness_scale = 0.6990132
 drag_force_scale = 0.4
-hit_radius_scale = 0.0204529
+hit_radius_scale = 0.02045291289687156
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1917,17 +1917,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_2b2rj"]
+[sub_resource type="Resource" id="Resource_tqlgx"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_04", "J_Sec_Hair2_04", "J_Sec_Hair3_04", "")
 stiffness_scale = 0.75
 drag_force_scale = 0.4
-hit_radius_scale = 0.0153397
+hit_radius_scale = 0.01533967442810535
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1936,17 +1936,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_em140"]
+[sub_resource type="Resource" id="Resource_lgsut"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_05", "J_Sec_Hair2_05", "J_Sec_Hair3_05", "")
-stiffness_scale = 0.748355
+stiffness_scale = 0.74835527
 drag_force_scale = 0.4
-hit_radius_scale = 0.0153397
+hit_radius_scale = 0.01533968187868595
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1955,17 +1955,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_f30df"]
+[sub_resource type="Resource" id="Resource_nesw0"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_01", "J_Sec_Hair2_01", "J_Sec_Hair3_01", "")
-stiffness_scale = 0.804167
+stiffness_scale = 0.8041667
 drag_force_scale = 0.4
-hit_radius_scale = 0.0102265
+hit_radius_scale = 0.01022645086050033
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1974,17 +1974,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_rki6l"]
+[sub_resource type="Resource" id="Resource_0ypdj"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_02", "J_Sec_Hair2_02", "J_Sec_Hair3_02", "")
-stiffness_scale = 0.816667
+stiffness_scale = 0.81666666
 drag_force_scale = 0.4
-hit_radius_scale = 0.0102265
+hit_radius_scale = 0.01022645458579063
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1993,17 +1993,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_vhouw"]
+[sub_resource type="Resource" id="Resource_7co0v"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_08", "J_Sec_Hair2_08", "J_Sec_Hair3_08", "J_Sec_Hair4_08", "J_Sec_Hair5_08", "")
 stiffness_scale = 0.8
 drag_force_scale = 0.4
-hit_radius_scale = 0.0511323
+hit_radius_scale = 0.05113226175308227
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -2012,17 +2012,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_wn77a"]
+[sub_resource type="Resource" id="Resource_nvmga"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_09", "J_Sec_Hair2_09", "J_Sec_Hair3_09", "J_Sec_Hair4_09", "J_Sec_Hair5_09", "")
 stiffness_scale = 0.8
 drag_force_scale = 0.4
-hit_radius_scale = 0.0511323
+hit_radius_scale = 0.05113227
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -2031,17 +2031,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_oxk6h"]
+[sub_resource type="Resource" id="Resource_thwt2"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_10", "J_Sec_Hair2_10", "J_Sec_Hair3_10", "J_Sec_Hair4_10", "J_Sec_Hair5_10", "")
 stiffness_scale = 0.8
 drag_force_scale = 0.4
-hit_radius_scale = 0.0511323
+hit_radius_scale = 0.051132258
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -2050,17 +2050,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_k12qv"]
+[sub_resource type="Resource" id="Resource_s2qnt"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_06", "J_Sec_Hair2_06", "J_Sec_Hair3_06", "")
-stiffness_scale = 0.816667
+stiffness_scale = 0.81666666
 drag_force_scale = 0.4
-hit_radius_scale = 0.0102265
+hit_radius_scale = 0.010226452
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -2069,17 +2069,17 @@ hit_radius = PackedFloat64Array()
 center_bone = "Root_"
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_tb6nf"]
+[sub_resource type="Resource" id="Resource_6j5jb"]
 resource_name = "Hair"
 script = ExtResource("2_clmvd")
 comment = "Hair"
 joint_nodes = PackedStringArray("J_Sec_Hair1_07", "J_Sec_Hair2_07", "J_Sec_Hair3_07", "")
 stiffness_scale = 0.8125
 drag_force_scale = 0.4
-hit_radius_scale = 0.0102264
+hit_radius_scale = 0.01022644713521003
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -2644,544 +2644,544 @@ bind/0/bone = -1
 bind/0/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 bind/1/name = &"Hips"
 bind/1/bone = -1
-bind/1/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.000560384, -1.05273, -0.0169147)
+bind/1/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.0005603843, -1.0527298, -0.016914656)
 bind/2/name = &"RightUpperLeg"
 bind/2/bone = -1
-bind/2/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0743772, 1.01217, -0.0131923)
+bind/2/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.07437719, 1.012169, -0.013192317)
 bind/3/name = &"RightLowerLeg"
 bind/3/bone = -1
-bind/3/pose = Transform3D(1.11557, 0, 0, 0, -1, 0, 0, 0, -1.25114, 0.0743771, 0.650004, 0.00561327)
+bind/3/pose = Transform3D(1.11557, 0, 0, 0, -1, 0, 0, 0, -1.25114, 0.074377105, 0.6500042, 0.005613271)
 bind/4/name = &"RightFoot"
 bind/4/bone = -1
-bind/4/pose = Transform3D(-1.11557, 0, 0, 0, 0, 1.25114, 0, 1, 0, -0.0743772, 0.0199787, -0.224377)
+bind/4/pose = Transform3D(-1.11557, 0, 0, 0, 0, 1.25114, 0, 1, 0, -0.07437719, 0.019978695, -0.22437641)
 bind/5/name = &"RightToes"
 bind/5/bone = -1
-bind/5/pose = Transform3D(1.11557, 0, 0, 0, 0, 1.25114, 0, -1, 0, 0.0743772, -0.0936149, 0.159667)
+bind/5/pose = Transform3D(1.11557, 0, 0, 0, 0, 1.25114, 0, -1, 0, 0.074377164, -0.093614906, 0.15966734)
 bind/6/name = &"J_Sec_R_SkirtFront0_03"
 bind/6/bone = -1
-bind/6/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0855993, 1.01729, -0.159188)
+bind/6/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08559928, 1.0172889, -0.15918826)
 bind/7/name = &"J_Sec_R_SkirtFront1_03"
 bind/7/bone = -1
-bind/7/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0855993, 1.01729, -0.159188)
+bind/7/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08559928, 1.0172889, -0.15918826)
 bind/8/name = &"J_Sec_R_SkirtFront2_03"
 bind/8/bone = -1
-bind/8/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.108852, 0.876044, -0.177073)
+bind/8/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.10885199, 0.8760443, -0.17707312)
 bind/9/name = &"J_Sec_R_SkirtFront2_end_03"
 bind/9/bone = -1
-bind/9/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.137039, 0.703605, -0.199298)
+bind/9/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.13703896, 0.7036046, -0.19929822)
 bind/10/name = &"J_Sec_R_SkirtBack0_03"
 bind/10/bone = -1
-bind/10/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0615975, 1.05062, 0.118055)
+bind/10/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.06159751, 1.0506191, 0.1180553)
 bind/11/name = &"J_Sec_R_SkirtBack1_03"
 bind/11/bone = -1
-bind/11/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0615975, 1.05062, 0.118055)
+bind/11/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.06159751, 1.0506191, 0.118055314)
 bind/12/name = &"J_Sec_R_SkirtBack2_03"
 bind/12/bone = -1
-bind/12/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0868746, 0.91126, 0.17568)
+bind/12/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08687455, 0.9112602, 0.17568032)
 bind/13/name = &"J_Sec_R_SkirtBack2_end_03"
 bind/13/bone = -1
-bind/13/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.111924, 0.770184, 0.228182)
+bind/13/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.11192405, 0.7701843, 0.22818242)
 bind/14/name = &"J_Sec_R_SkirtFront0_02"
 bind/14/bone = -1
-bind/14/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0855993, 1.01729, -0.159188)
+bind/14/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08559928, 1.0172889, -0.15918826)
 bind/15/name = &"J_Sec_R_SkirtFront1_02"
 bind/15/bone = -1
-bind/15/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0855993, 1.01729, -0.159188)
+bind/15/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08559928, 1.0172889, -0.15918826)
 bind/16/name = &"J_Sec_R_SkirtFront2_02"
 bind/16/bone = -1
-bind/16/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.108852, 0.876044, -0.177073)
+bind/16/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.10885199, 0.8760443, -0.17707312)
 bind/17/name = &"J_Sec_R_SkirtFront2_end_02"
 bind/17/bone = -1
-bind/17/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.137039, 0.703605, -0.199298)
+bind/17/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.13703896, 0.7036046, -0.19929822)
 bind/18/name = &"J_Sec_R_SkirtBack0_02"
 bind/18/bone = -1
-bind/18/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0615975, 1.05062, 0.118055)
+bind/18/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.06159751, 1.0506191, 0.1180553)
 bind/19/name = &"J_Sec_R_SkirtBack1_02"
 bind/19/bone = -1
-bind/19/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0615975, 1.05062, 0.118055)
+bind/19/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.06159751, 1.0506191, 0.118055314)
 bind/20/name = &"J_Sec_R_SkirtBack2_02"
 bind/20/bone = -1
-bind/20/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0868746, 0.91126, 0.17568)
+bind/20/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08687455, 0.9112602, 0.17568032)
 bind/21/name = &"J_Sec_R_SkirtBack2_end_02"
 bind/21/bone = -1
-bind/21/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.111924, 0.770184, 0.228182)
+bind/21/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.11192405, 0.7701843, 0.22818242)
 bind/22/name = &"J_Sec_R_SkirtFront0_01"
 bind/22/bone = -1
-bind/22/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0855993, 1.01729, -0.159188)
+bind/22/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08559928, 1.0172889, -0.15918826)
 bind/23/name = &"J_Sec_R_SkirtFront1_01"
 bind/23/bone = -1
-bind/23/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0855993, 1.01729, -0.159188)
+bind/23/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08559928, 1.0172889, -0.15918826)
 bind/24/name = &"J_Sec_R_SkirtFront2_01"
 bind/24/bone = -1
-bind/24/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.108852, 0.876044, -0.177073)
+bind/24/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.10885199, 0.8760443, -0.17707312)
 bind/25/name = &"J_Sec_R_SkirtFront2_end_01"
 bind/25/bone = -1
-bind/25/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.137039, 0.703605, -0.199298)
+bind/25/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.13703896, 0.7036046, -0.19929822)
 bind/26/name = &"J_Sec_R_SkirtBack0_01"
 bind/26/bone = -1
-bind/26/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0615975, 1.05062, 0.118055)
+bind/26/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.06159751, 1.0506191, 0.1180553)
 bind/27/name = &"J_Sec_R_SkirtBack1_01"
 bind/27/bone = -1
-bind/27/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0615975, 1.05062, 0.118055)
+bind/27/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.06159751, 1.0506191, 0.118055314)
 bind/28/name = &"J_Sec_R_SkirtBack2_01"
 bind/28/bone = -1
-bind/28/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.0868746, 0.91126, 0.17568)
+bind/28/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.08687455, 0.9112602, 0.17568032)
 bind/29/name = &"J_Sec_R_SkirtBack2_end_01"
 bind/29/bone = -1
-bind/29/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.111924, 0.770184, 0.228182)
+bind/29/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, -0.11192405, 0.7701843, 0.22818242)
 bind/30/name = &"LeftUpperLeg"
 bind/30/bone = -1
-bind/30/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0732564, 1.01217, -0.0131923)
+bind/30/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.07325637, 1.012169, -0.013192306)
 bind/31/name = &"LeftLowerLeg"
 bind/31/bone = -1
-bind/31/pose = Transform3D(1.11557, 0, 0, 0, -1, 0, 0, 0, -1.25114, -0.0732564, 0.650004, 0.00561327)
+bind/31/pose = Transform3D(1.11557, 0, 0, 0, -1, 0, 0, 0, -1.25114, -0.07325636, 0.65000415, 0.005613268)
 bind/32/name = &"LeftFoot"
 bind/32/bone = -1
-bind/32/pose = Transform3D(-1.11557, 0, 0, 0, 0, 1.25114, 0, 1, 0, 0.0732564, 0.0199787, -0.224378)
+bind/32/pose = Transform3D(-1.11557, 0, 0, 0, 0, 1.25114, 0, 1, 0, 0.07325636, 0.019978719, -0.22437744)
 bind/33/name = &"LeftToes"
 bind/33/bone = -1
-bind/33/pose = Transform3D(1.11557, 0, 0, 0, 0, 1.25114, 0, -1, 0, -0.0732564, -0.0936149, 0.159668)
+bind/33/pose = Transform3D(1.11557, 0, 0, 0, 0, 1.25114, 0, -1, 0, -0.0732564, -0.0936149, 0.15966746)
 bind/34/name = &"J_Sec_L_SkirtFront0_03"
 bind/34/bone = -1
-bind/34/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0844765, 1.01729, -0.159188)
+bind/34/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.084476486, 1.0172889, -0.15918833)
 bind/35/name = &"J_Sec_L_SkirtFront1_03"
 bind/35/bone = -1
-bind/35/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0844764, 1.01729, -0.159188)
+bind/35/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.08447638, 1.0172889, -0.15918832)
 bind/36/name = &"J_Sec_L_SkirtFront2_03"
 bind/36/bone = -1
-bind/36/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.107729, 0.876044, -0.177074)
+bind/36/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.10772892, 0.8760436, -0.1770743)
 bind/37/name = &"J_Sec_L_SkirtFront2_end_03"
 bind/37/bone = -1
-bind/37/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.135916, 0.703604, -0.199299)
+bind/37/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.13591586, 0.70360386, -0.19929937)
 bind/38/name = &"J_Sec_L_SkirtBack0_03"
 bind/38/bone = -1
-bind/38/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0604785, 1.05062, 0.118056)
+bind/38/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.06047847, 1.0506191, 0.11805551)
 bind/39/name = &"J_Sec_L_SkirtBack1_03"
 bind/39/bone = -1
-bind/39/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0604785, 1.05062, 0.118056)
+bind/39/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.06047847, 1.0506191, 0.11805552)
 bind/40/name = &"J_Sec_L_SkirtBack2_03"
 bind/40/bone = -1
-bind/40/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0857564, 0.91126, 0.175681)
+bind/40/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.085756406, 0.9112598, 0.17568064)
 bind/41/name = &"J_Sec_L_SkirtBack2_end_03"
 bind/41/bone = -1
-bind/41/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.110806, 0.770184, 0.228182)
+bind/41/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.11080591, 0.77018356, 0.22818154)
 bind/42/name = &"J_Sec_L_SkirtFront0_02"
 bind/42/bone = -1
-bind/42/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0844765, 1.01729, -0.159188)
+bind/42/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.084476486, 1.0172889, -0.15918833)
 bind/43/name = &"J_Sec_L_SkirtFront1_02"
 bind/43/bone = -1
-bind/43/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0844764, 1.01729, -0.159188)
+bind/43/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.08447638, 1.0172889, -0.15918832)
 bind/44/name = &"J_Sec_L_SkirtFront2_02"
 bind/44/bone = -1
-bind/44/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.107729, 0.876044, -0.177074)
+bind/44/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.10772892, 0.8760436, -0.1770743)
 bind/45/name = &"J_Sec_L_SkirtFront2_end_02"
 bind/45/bone = -1
-bind/45/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.135916, 0.703604, -0.199299)
+bind/45/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.13591586, 0.70360386, -0.19929937)
 bind/46/name = &"J_Sec_L_SkirtBack0_02"
 bind/46/bone = -1
-bind/46/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0604785, 1.05062, 0.118056)
+bind/46/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.06047847, 1.0506191, 0.11805551)
 bind/47/name = &"J_Sec_L_SkirtBack1_02"
 bind/47/bone = -1
-bind/47/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0604785, 1.05062, 0.118056)
+bind/47/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.06047847, 1.0506191, 0.11805552)
 bind/48/name = &"J_Sec_L_SkirtBack2_02"
 bind/48/bone = -1
-bind/48/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0857564, 0.91126, 0.175681)
+bind/48/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.085756406, 0.9112598, 0.17568064)
 bind/49/name = &"J_Sec_L_SkirtBack2_end_02"
 bind/49/bone = -1
-bind/49/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.110806, 0.770184, 0.228182)
+bind/49/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.11080591, 0.77018356, 0.22818154)
 bind/50/name = &"J_Sec_L_SkirtFront0_01"
 bind/50/bone = -1
-bind/50/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0844765, 1.01729, -0.159188)
+bind/50/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.084476486, 1.0172889, -0.15918833)
 bind/51/name = &"J_Sec_L_SkirtFront1_01"
 bind/51/bone = -1
-bind/51/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0844764, 1.01729, -0.159188)
+bind/51/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.08447638, 1.0172889, -0.15918832)
 bind/52/name = &"J_Sec_L_SkirtFront2_01"
 bind/52/bone = -1
-bind/52/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.107729, 0.876044, -0.177074)
+bind/52/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.10772892, 0.8760436, -0.1770743)
 bind/53/name = &"J_Sec_L_SkirtFront2_end_01"
 bind/53/bone = -1
-bind/53/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.135916, 0.703604, -0.199299)
+bind/53/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.13591586, 0.70360386, -0.19929937)
 bind/54/name = &"J_Sec_L_SkirtBack0_01"
 bind/54/bone = -1
-bind/54/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0604785, 1.05062, 0.118056)
+bind/54/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.06047847, 1.0506191, 0.11805551)
 bind/55/name = &"J_Sec_L_SkirtBack1_01"
 bind/55/bone = -1
-bind/55/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0604785, 1.05062, 0.118056)
+bind/55/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.06047847, 1.0506191, 0.11805552)
 bind/56/name = &"J_Sec_L_SkirtBack2_01"
 bind/56/bone = -1
-bind/56/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.0857564, 0.91126, 0.175681)
+bind/56/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.085756406, 0.9112598, 0.17568064)
 bind/57/name = &"J_Sec_L_SkirtBack2_end_01"
 bind/57/bone = -1
-bind/57/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.110806, 0.770184, 0.228182)
+bind/57/pose = Transform3D(-1.11557, 0, 0, 0, -1, 0, 0, 0, 1.25114, 0.11080591, 0.77018356, 0.22818154)
 bind/58/name = &"Spine"
 bind/58/bone = -1
-bind/58/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25714, 0.000560384, -1.10617, -0.0299188)
+bind/58/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2571329, 0.0005603843, -1.1061672, -0.029918605)
 bind/59/name = &"Chest"
 bind/59/bone = -1
-bind/59/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.27473, 0.000560384, -1.22214, -0.0335677)
+bind/59/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2747202, 0.0005603841, -1.2221435, -0.03356746)
 bind/60/name = &"UpperChest"
 bind/60/bone = -1
-bind/60/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.20118, 0.000560384, -1.32933, -0.0188708)
+bind/60/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2011727, 0.000560384, -1.3293258, -0.018870493)
 bind/61/name = &"RightShoulder"
 bind/61/bone = -1
-bind/61/pose = Transform3D(0, 0, -1.2624, -1.11557, 0, 0, 0, 1, 0, -0.0123433, -0.022139, -1.4386)
+bind/61/pose = Transform3D(0, 0, -1.2623965, -1.11557, 0, 0, 0, 1, 0, -0.012343649, -0.022139002, -1.4386034)
 bind/62/name = &"RightUpperArm"
 bind/62/bone = -1
-bind/62/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0123433, -0.123636, 1.42417)
+bind/62/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.012343658, -0.123635896, 1.4241672)
 bind/63/name = &"RightLowerArm"
 bind/63/bone = -1
-bind/63/pose = Transform3D(0, 1, 0, -1.11557, 0, 0, 0, 0, 1.2624, -1.42416, -0.349257, 0.0123433)
+bind/63/pose = Transform3D(0, 1, 0, -1.11557, 0, 0, 0, 0, 1.2623965, -1.424161, -0.34925744, 0.012343641)
 bind/64/name = &"RightHand"
 bind/64/bone = -1
-bind/64/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0123303, -0.569575, 1.42416)
+bind/64/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.012330573, -0.56957537, 1.4241643)
 bind/65/name = &"J_Sec_R_TipSleeve_01"
 bind/65/bone = -1
-bind/65/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0206554, -0.564761, 1.40779)
+bind/65/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.020655766, -0.56476134, 1.4077942)
 bind/66/name = &"J_Sec_R_TipSleeve_end_01"
 bind/66/bone = -1
-bind/66/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0231364, -0.60932, 1.40313)
+bind/66/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.023136768, -0.6093203, 1.4031342)
 bind/67/name = &"RightThumbMetacarpal"
 bind/67/bone = -1
-bind/67/pose = Transform3D(0, -1, 0, -0.911414, 0, 0.72929, -0.644466, 0, -1.03137, 1.41389, -0.470635, -0.327823)
+bind/67/pose = Transform3D(0, -0.99999994, 0, -0.91141355, 2.7162205e-08, 0.7292881, -0.64446604, 1.9206608e-08, -1.0313697, 1.4138936, -0.4706346, -0.32782373)
 bind/68/name = &"RightThumbProximal"
 bind/68/bone = -1
-bind/68/pose = Transform3D(0, -1, 0, -0.911414, 0, 0.72929, -0.644466, 0, -1.03137, 1.41178, -0.518234, -0.323422)
+bind/68/pose = Transform3D(0, -0.99999994, 0, -0.91141355, 2.7162207e-08, 0.7292881, -0.64446604, 1.920661e-08, -1.0313697, 1.4117823, -0.5182341, -0.3234228)
 bind/69/name = &"RightThumbDistal"
 bind/69/bone = -1
-bind/69/pose = Transform3D(0, -1, 0, -0.911414, 0, 0.72929, -0.644466, 0, -1.03137, 1.41078, -0.547617, -0.322001)
+bind/69/pose = Transform3D(0, -1, 0, -0.91141367, 2.7162205e-08, 0.72928816, -0.64446616, 1.9206608e-08, -1.0313697, 1.4107848, -0.5476165, -0.3220015)
 bind/70/name = &"RightRingProximal"
 bind/70/bone = -1
-bind/70/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0262748, -0.636916, 1.43174)
+bind/70/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.02627512, -0.63691616, 1.4317367)
 bind/71/name = &"RightRingIntermediate"
 bind/71/bone = -1
-bind/71/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0262748, -0.672193, 1.43174)
+bind/71/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.026275132, -0.6721931, 1.4317443)
 bind/72/name = &"RightRingDistal"
 bind/72/bone = -1
-bind/72/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0262748, -0.692552, 1.43174)
+bind/72/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.026275087, -0.6925516, 1.4317449)
 bind/73/name = &"RightMiddleProximal"
 bind/73/bone = -1
-bind/73/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0102296, -0.637692, 1.43174)
+bind/73/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.010229893, -0.63769156, 1.4317416)
 bind/74/name = &"RightMiddleIntermediate"
 bind/74/bone = -1
-bind/74/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0102295, -0.675721, 1.43174)
+bind/74/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.010229869, -0.67572093, 1.4317362)
 bind/75/name = &"RightMiddleDistal"
 bind/75/bone = -1
-bind/75/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0102295, -0.699183, 1.43174)
+bind/75/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.010229826, -0.69918275, 1.4317367)
 bind/76/name = &"RightLittleProximal"
 bind/76/bone = -1
-bind/76/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0422714, -0.632279, 1.43174)
+bind/76/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.04227173, -0.63227934, 1.4317368)
 bind/77/name = &"RightLittleIntermediate"
 bind/77/bone = -1
-bind/77/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0422714, -0.664547, 1.43174)
+bind/77/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.04227175, -0.66454726, 1.4317443)
 bind/78/name = &"RightLittleDistal"
 bind/78/bone = -1
-bind/78/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, 0.0422714, -0.683145, 1.43174)
+bind/78/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, 0.042271737, -0.68314487, 1.4317379)
 bind/79/name = &"RightIndexProximal"
 bind/79/bone = -1
-bind/79/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, -0.00784233, -0.636777, 1.43174)
+bind/79/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, -0.00784201, -0.6367767, 1.4317385)
 bind/80/name = &"RightIndexIntermediate"
 bind/80/bone = -1
-bind/80/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, -0.00717916, -0.670912, 1.43174)
+bind/80/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, -0.007178834, -0.67091185, 1.4317448)
 bind/81/name = &"RightIndexDistal"
 bind/81/bone = -1
-bind/81/pose = Transform3D(0, 0, 1.2624, -1.11557, 0, 0, 0, -1, 0, -0.00636946, -0.691907, 1.43113)
+bind/81/pose = Transform3D(0, 0, 1.2623965, -1.11557, 0, 0, 0, -1, 0, -0.0063691367, -0.69190663, 1.43113)
 bind/82/name = &"J_Sec_R_LowerSleeve_01"
 bind/82/bone = -1
-bind/82/pose = Transform3D(2.26384e-17, 1, 0, -1.11557, 2.02931e-17, 0, 0, 0, 1.2624, -1.40325, -0.450241, 0.0101903)
+bind/82/pose = Transform3D(2.2638372e-17, 1, 0, -1.11557, 2.02931e-17, 0, 0, 0, 1.2623965, -1.4032509, -0.4502412, 0.01019064)
 bind/83/name = &"J_Sec_R_LowerSleeve_end_01"
 bind/83/bone = -1
-bind/83/pose = Transform3D(4.52767e-17, 1, 0, -1.11557, 4.05862e-17, 0, 0, 0, 1.2624, -1.32328, -0.455223, 0.00630414)
+bind/83/pose = Transform3D(4.5276743e-17, 1, 0, -1.11557, 4.05862e-17, 0, 0, 0, 1.2623965, -1.3232809, -0.45522317, 0.0063044634)
 bind/84/name = &"LeftShoulder"
 bind/84/bone = -1
-bind/84/pose = Transform3D(0, 0, 1.2624, 1.11557, 0, 0, 0, 1, 0, 0.0123433, -0.0210183, -1.4386)
+bind/84/pose = Transform3D(0, 0, 1.2623965, 1.11557, 0, 0, 0, 1, 0, 0.012343649, -0.021018265, -1.4386034)
 bind/85/name = &"LeftUpperArm"
 bind/85/bone = -1
-bind/85/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0123433, -0.122515, 1.42417)
+bind/85/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.012343654, -0.12251518, 1.424167)
 bind/86/name = &"LeftLowerArm"
 bind/86/bone = -1
-bind/86/pose = Transform3D(0, -1, 0, 1.11557, 0, 0, 0, 0, 1.2624, 1.42416, -0.348136, 0.0123434)
+bind/86/pose = Transform3D(0, -1, 0, 1.11557, 0, 0, 0, 0, 1.2623965, 1.4241612, -0.34813628, 0.012343764)
 bind/87/name = &"LeftHand"
 bind/87/bone = -1
-bind/87/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0123303, -0.568455, 1.42416)
+bind/87/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.012330614, -0.56845534, 1.4241648)
 bind/88/name = &"J_Sec_L_TipSleeve_01"
 bind/88/bone = -1
-bind/88/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0206555, -0.56364, 1.40779)
+bind/88/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.020655798, -0.5636403, 1.4077947)
 bind/89/name = &"J_Sec_L_TipSleeve_end_01"
 bind/89/bone = -1
-bind/89/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0231365, -0.6082, 1.40313)
+bind/89/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.023136813, -0.6082004, 1.4031347)
 bind/90/name = &"LeftThumbMetacarpal"
 bind/90/bone = -1
-bind/90/pose = Transform3D(0, 1, 0, 0.911414, 0, 0.72929, 0.644466, 0, -1.03137, -1.41389, -0.46972, -0.327176)
+bind/90/pose = Transform3D(0, 0.99999994, 0, 0.91141355, 2.7162205e-08, 0.7292881, 0.64446604, 1.9206608e-08, -1.0313697, -1.4138938, -0.46971956, -0.32717612)
 bind/91/name = &"LeftThumbProximal"
 bind/91/bone = -1
-bind/91/pose = Transform3D(0, 1, 0, 0.911414, 0, 0.72929, 0.644466, 0, -1.03137, -1.41178, -0.51732, -0.322775)
+bind/91/pose = Transform3D(0, 0.99999994, 0, 0.91141355, 2.7162207e-08, 0.7292881, 0.64446604, 1.920661e-08, -1.0313697, -1.4117754, -0.5173194, -0.32277498)
 bind/92/name = &"LeftThumbDistal"
 bind/92/bone = -1
-bind/92/pose = Transform3D(0, 1, 0, 0.911414, 0, 0.72929, 0.644466, 0, -1.03137, -1.41078, -0.546701, -0.321353)
+bind/92/pose = Transform3D(0, 1, 0, 0.91141367, 2.7162205e-08, 0.72928816, 0.64446616, 1.9206608e-08, -1.0313697, -1.4107813, -0.5467007, -0.32135373)
 bind/93/name = &"LeftRingProximal"
 bind/93/bone = -1
-bind/93/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0262748, -0.635795, 1.43174)
+bind/93/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.02627517, -0.63579476, 1.4317371)
 bind/94/name = &"LeftRingIntermediate"
 bind/94/bone = -1
-bind/94/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0262748, -0.671072, 1.43174)
+bind/94/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.02627514, -0.6710717, 1.4317448)
 bind/95/name = &"LeftRingDistal"
 bind/95/bone = -1
-bind/95/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0262748, -0.69143, 1.43175)
+bind/95/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.026275117, -0.6914303, 1.4317454)
 bind/96/name = &"LeftMiddleProximal"
 bind/96/bone = -1
-bind/96/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0102295, -0.636572, 1.43174)
+bind/96/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.010229815, -0.63657165, 1.4317418)
 bind/97/name = &"LeftMiddleIntermediate"
 bind/97/bone = -1
-bind/97/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0102295, -0.674601, 1.43174)
+bind/97/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.010229856, -0.674601, 1.431737)
 bind/98/name = &"LeftMiddleDistal"
 bind/98/bone = -1
-bind/98/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0102295, -0.698062, 1.43174)
+bind/98/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.010229863, -0.6980618, 1.4317375)
 bind/99/name = &"LeftLittleProximal"
 bind/99/bone = -1
-bind/99/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0422715, -0.631159, 1.43174)
+bind/99/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.04227177, -0.63115895, 1.4317375)
 bind/100/name = &"LeftLittleIntermediate"
 bind/100/bone = -1
-bind/100/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0422714, -0.663427, 1.43175)
+bind/100/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.04227175, -0.663427, 1.4317452)
 bind/101/name = &"LeftLittleDistal"
 bind/101/bone = -1
-bind/101/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, -0.0422714, -0.682023, 1.43174)
+bind/101/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, -0.042271663, -0.68202335, 1.4317392)
 bind/102/name = &"LeftIndexProximal"
 bind/102/bone = -1
-bind/102/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, 0.0078423, -0.635655, 1.43174)
+bind/102/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, 0.007841979, -0.63565546, 1.431739)
 bind/103/name = &"LeftIndexIntermediate"
 bind/103/bone = -1
-bind/103/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, 0.00717912, -0.669791, 1.43175)
+bind/103/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, 0.0071787992, -0.6697907, 1.4317453)
 bind/104/name = &"LeftIndexDistal"
 bind/104/bone = -1
-bind/104/pose = Transform3D(0, 0, -1.2624, 1.11557, 0, 0, 0, -1, 0, 0.00636943, -0.690787, 1.43113)
+bind/104/pose = Transform3D(0, 0, -1.2623965, 1.11557, 0, 0, 0, -1, 0, 0.006369107, -0.69078654, 1.4311306)
 bind/105/name = &"J_Sec_L_LowerSleeve_01"
 bind/105/bone = -1
-bind/105/pose = Transform3D(2.26384e-17, -1, 0, 1.11557, 2.02931e-17, 0, 0, 0, 1.2624, 1.40325, -0.449121, 0.0101903)
+bind/105/pose = Transform3D(2.2638372e-17, -1, 0, 1.11557, 2.02931e-17, 0, 0, 0, 1.2623965, 1.4032512, -0.44912115, 0.010190668)
 bind/106/name = &"J_Sec_L_LowerSleeve_end_01"
 bind/106/bone = -1
-bind/106/pose = Transform3D(4.52767e-17, -1, 0, 1.11557, 4.05862e-17, 0, 0, 0, 1.2624, 1.32328, -0.454103, 0.00630454)
+bind/106/pose = Transform3D(4.5276743e-17, -1, 0, 1.11557, 4.05862e-17, 0, 0, 0, 1.2623965, 1.3232812, -0.45410317, 0.006304859)
 bind/107/name = &"Neck"
 bind/107/bone = -1
-bind/107/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.000560384, -1.46837, 0.0211898)
+bind/107/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.00056038384, -1.4683715, 0.021190211)
 bind/108/name = &"Head"
 bind/108/bone = -1
-bind/108/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.000560331, -1.54352, 0.0106217)
+bind/108/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.0005603307, -1.5435227, 0.010622146)
 bind/109/name = &"J_Sec_Hair1_10"
 bind/109/bone = -1
-bind/109/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.102279, -1.66162, 0.046007)
+bind/109/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.1022794, -1.6616203, 0.04600742)
 bind/110/name = &"J_Sec_Hair2_10"
 bind/110/bone = -1
-bind/110/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.108006, -1.55415, 0.0701125)
+bind/110/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.10800616, -1.5541518, 0.070112936)
 bind/111/name = &"J_Sec_Hair3_10"
 bind/111/bone = -1
-bind/111/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.128898, -1.4494, 0.0950253)
+bind/111/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.12889792, -1.4493967, 0.09502568)
 bind/112/name = &"J_Sec_Hair4_10"
 bind/112/bone = -1
-bind/112/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.173394, -1.35141, 0.118693)
+bind/112/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.17339367, -1.3514131, 0.118693024)
 bind/113/name = &"J_Sec_Hair5_10"
 bind/113/bone = -1
-bind/113/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.179054, -1.24544, 0.11349)
+bind/113/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.17905395, -1.2454447, 0.113489956)
 bind/114/name = &"J_Sec_Hair1_09"
 bind/114/bone = -1
-bind/114/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.102019, -1.64111, 0.0513882)
+bind/114/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.102019005, -1.6411076, 0.051388636)
 bind/115/name = &"J_Sec_Hair2_09"
 bind/115/bone = -1
-bind/115/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.107789, -1.5388, 0.0740387)
+bind/115/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.10778912, -1.538797, 0.07403913)
 bind/116/name = &"J_Sec_Hair3_09"
 bind/116/bone = -1
-bind/116/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.134244, -1.4402, 0.0951692)
+bind/116/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.13424382, -1.4401972, 0.095169604)
 bind/117/name = &"J_Sec_Hair4_09"
 bind/117/bone = -1
-bind/117/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.173995, -1.34638, 0.119527)
+bind/117/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.1739952, -1.3463831, 0.11952752)
 bind/118/name = &"J_Sec_Hair5_09"
 bind/118/bone = -1
-bind/118/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.177933, -1.24545, 0.113489)
+bind/118/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.17793329, -1.2454498, 0.11348948)
 bind/119/name = &"J_Sec_Hair1_08"
 bind/119/bone = -1
-bind/119/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0043983, -1.61, 0.106175)
+bind/119/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.0043983036, -1.609997, 0.10617517)
 bind/120/name = &"J_Sec_Hair2_08"
 bind/120/bone = -1
-bind/120/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0109657, -1.50579, 0.10252)
+bind/120/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.010965714, -1.5057862, 0.10252017)
 bind/121/name = &"J_Sec_Hair3_08"
 bind/121/bone = -1
-bind/121/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.00596174, -1.40278, 0.122186)
+bind/121/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.005961746, -1.4027818, 0.122186884)
 bind/122/name = &"J_Sec_Hair4_08"
 bind/122/bone = -1
-bind/122/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.00172663, -1.30342, 0.155418)
+bind/122/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.0017266227, -1.3034171, 0.15541792)
 bind/123/name = &"J_Sec_Hair5_08"
 bind/123/bone = -1
-bind/123/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0139889, -1.20362, 0.148171)
+bind/123/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.013988873, -1.2036208, 0.14817148)
 bind/124/name = &"J_Sec_Hair1_07"
 bind/124/bone = -1
-bind/124/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.105926, -1.60708, -0.0139552)
+bind/124/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.10592567, -1.607081, -0.013954742)
 bind/125/name = &"J_Sec_Hair2_07"
 bind/125/bone = -1
-bind/125/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0950336, -1.56197, -0.0149531)
+bind/125/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.09503364, -1.5619738, -0.014952698)
 bind/126/name = &"J_Sec_Hair3_07"
 bind/126/bone = -1
-bind/126/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0724366, -1.5226, -0.0235367)
+bind/126/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.0724366, -1.5225984, -0.02353625)
 bind/127/name = &"J_Sec_Hair1_06"
 bind/127/bone = -1
-bind/127/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.106971, -1.60711, -0.0139824)
+bind/127/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.10697136, -1.6071115, -0.013982004)
 bind/128/name = &"J_Sec_Hair2_06"
 bind/128/bone = -1
-bind/128/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0960623, -1.56174, -0.0149169)
+bind/128/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.09606228, -1.5617428, -0.014916513)
 bind/129/name = &"J_Sec_Hair3_06"
 bind/129/bone = -1
-bind/129/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0733175, -1.52261, -0.0241376)
+bind/129/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.073317505, -1.5226083, -0.024137197)
 bind/130/name = &"J_Sec_Hair1_05"
 bind/130/bone = -1
-bind/130/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0753081, -1.67432, -0.0653278)
+bind/130/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.07530808, -1.6743195, -0.06532735)
 bind/131/name = &"J_Sec_Hair2_05"
 bind/131/bone = -1
-bind/131/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0806388, -1.6271, -0.0644212)
+bind/131/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.080638796, -1.6271011, -0.064420775)
 bind/132/name = &"J_Sec_Hair3_05"
 bind/132/bone = -1
-bind/132/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0622322, -1.58547, -0.0702925)
+bind/132/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.06223221, -1.5854731, -0.070292026)
 bind/133/name = &"J_Sec_Hair1_04"
 bind/133/bone = -1
-bind/133/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0553243, -1.68931, -0.0802954)
+bind/133/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.055324268, -1.6893117, -0.08029495)
 bind/134/name = &"J_Sec_Hair2_04"
 bind/134/bone = -1
-bind/134/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0667118, -1.64941, -0.078103)
+bind/134/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.06671175, -1.6494131, -0.078102544)
 bind/135/name = &"J_Sec_Hair3_04"
 bind/135/bone = -1
-bind/135/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0685102, -1.60824, -0.0727594)
+bind/135/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.06851016, -1.6082375, -0.07275896)
 bind/136/name = &"J_Sec_Hair1_03"
 bind/136/bone = -1
-bind/136/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.00116298, -1.68425, -0.100856)
+bind/136/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.0011629815, -1.6842538, -0.1008552)
 bind/137/name = &"J_Sec_Hair2_03"
 bind/137/bone = -1
-bind/137/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.00583203, -1.64483, -0.103567)
+bind/137/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.005832028, -1.644828, -0.10356663)
 bind/138/name = &"J_Sec_Hair3_03"
 bind/138/bone = -1
-bind/138/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0186998, -1.60833, -0.0963709)
+bind/138/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.018699761, -1.6083279, -0.096370496)
 bind/139/name = &"J_Sec_Hair1_02"
 bind/139/bone = -1
-bind/139/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0860138, -1.5974, -0.0499819)
+bind/139/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.08601376, -1.5973979, -0.049981482)
 bind/140/name = &"J_Sec_Hair2_02"
 bind/140/bone = -1
-bind/140/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0767592, -1.55822, -0.051321)
+bind/140/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.076759174, -1.5582232, -0.05132053)
 bind/141/name = &"J_Sec_Hair3_02"
 bind/141/bone = -1
-bind/141/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0553625, -1.52652, -0.061627)
+bind/141/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.055362497, -1.5265197, -0.061626524)
 bind/142/name = &"J_Sec_Hair1_01"
 bind/142/bone = -1
-bind/142/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0882808, -1.6032, -0.0492322)
+bind/142/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.08828082, -1.6031997, -0.049231805)
 bind/143/name = &"J_Sec_Hair2_01"
 bind/143/bone = -1
-bind/143/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0778093, -1.56146, -0.0514499)
+bind/143/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.07780931, -1.5614614, -0.05144942)
 bind/144/name = &"J_Sec_Hair3_01"
 bind/144/bone = -1
-bind/144/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0564831, -1.52652, -0.061627)
+bind/144/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.056483116, -1.5265197, -0.061626542)
 bind/145/name = &"J_Opt_R_CatEar1_01"
 bind/145/bone = -1
-bind/145/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0849746, -1.71457, 0.0100065)
+bind/145/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.08497456, -1.7145699, 0.010006916)
 bind/146/name = &"J_Opt_R_CatEar2_01"
 bind/146/bone = -1
-bind/146/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0849745, -1.71457, 0.0100065)
+bind/146/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.084974535, -1.7145698, 0.010006921)
 bind/147/name = &"J_Opt_R_CatEar2_end_01"
 bind/147/bone = -1
-bind/147/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.132866, -1.7831, -0.0142489)
+bind/147/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.13286643, -1.783095, -0.014248456)
 bind/148/name = &"J_Opt_L_CatEar1_01"
 bind/148/bone = -1
-bind/148/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0838539, -1.71457, 0.0100066)
+bind/148/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.08385391, -1.71457, 0.01000702)
 bind/149/name = &"J_Opt_L_CatEar2_01"
 bind/149/bone = -1
-bind/149/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.083854, -1.71457, 0.0100065)
+bind/149/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.083854005, -1.7145697, 0.010006987)
 bind/150/name = &"J_Opt_L_CatEar2_end_01"
 bind/150/bone = -1
-bind/150/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.131746, -1.7831, -0.0142488)
+bind/150/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.13174605, -1.7830952, -0.014248377)
 bind/151/name = &"RightEye"
 bind/151/bone = -1
-bind/151/pose = Transform3D(1.11557, 0, 0, 0, -2.80309e-16, 1.2624, 0, -1, -2.22045e-16, 0.0183364, -0.0113769, 1.60781)
+bind/151/pose = Transform3D(1.11557, 0, 0, 0, 0, 1.2623965, 0, -1, 0, 0.018336393, -0.011376478, 1.6078053)
 bind/152/name = &"LeftEye"
 bind/152/bone = -1
-bind/152/pose = Transform3D(1.11557, 0, 0, 0, -2.80309e-16, 1.2624, 0, -1, -2.22045e-16, -0.0172157, -0.0113769, 1.60781)
+bind/152/pose = Transform3D(1.11557, 0, 0, 0, 0, 1.2623965, 0, -1, 0, -0.017215746, -0.011376462, 1.6078054)
 bind/153/name = &"J_Sec_R_Bust1"
 bind/153/bone = -1
-bind/153/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.057533, -1.32516, -0.0889627)
+bind/153/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.057532907, -1.325162, -0.088962756)
 bind/154/name = &"J_Sec_R_Bust2"
 bind/154/bone = -1
-bind/154/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, 0.0851999, -1.33119, -0.141095)
+bind/154/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, 0.08519989, -1.3311937, -0.14109488)
 bind/155/name = &"J_Sec_L_Bust1"
 bind/155/bone = -1
-bind/155/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0564122, -1.32516, -0.0889626)
+bind/155/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.05641217, -1.3251622, -0.08896275)
 bind/156/name = &"J_Sec_L_Bust2"
 bind/156/bone = -1
-bind/156/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2624, -0.0840792, -1.33119, -0.141095)
+bind/156/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.2623965, -0.08407918, -1.3311938, -0.14109498)
 bind/157/name = &"J_Sec_R_SkirtSide0_03"
 bind/157/bone = -1
-bind/157/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.192999, -1.03433, -0.0252749)
+bind/157/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.19299896, -1.0343299, -0.02527485)
 bind/158/name = &"J_Sec_R_SkirtSide1_03"
 bind/158/bone = -1
-bind/158/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.192999, -1.03433, -0.025275)
+bind/158/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.19299896, -1.0343299, -0.02527497)
 bind/159/name = &"J_Sec_R_SkirtSide2_03"
 bind/159/bone = -1
-bind/159/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.244944, -0.899702, -0.0165977)
+bind/159/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.24494395, -0.8997022, -0.016597651)
 bind/160/name = &"J_Sec_R_SkirtSide2_end_03"
 bind/160/bone = -1
-bind/160/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.286912, -0.771236, -0.00930059)
+bind/160/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.28691196, -0.7712363, -0.009300589)
 bind/161/name = &"J_Sec_L_SkirtSide0_03"
 bind/161/bone = -1
-bind/161/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.191879, -1.03433, -0.0252747)
+bind/161/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.19187862, -1.0343298, -0.025274655)
 bind/162/name = &"J_Sec_L_SkirtSide1_03"
 bind/162/bone = -1
-bind/162/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.191879, -1.03433, -0.0252748)
+bind/162/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.19187862, -1.0343298, -0.025274776)
 bind/163/name = &"J_Sec_L_SkirtSide2_03"
 bind/163/bone = -1
-bind/163/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.243824, -0.899701, -0.0165975)
+bind/163/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.24382357, -0.8997008, -0.016597461)
 bind/164/name = &"J_Sec_L_SkirtSide2_end_03"
 bind/164/bone = -1
-bind/164/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.285792, -0.771236, -0.00930037)
+bind/164/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.28579164, -0.77123547, -0.009300366)
 bind/165/name = &"J_Sec_R_SkirtSide0_02"
 bind/165/bone = -1
-bind/165/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.192999, -1.03433, -0.0252749)
+bind/165/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.19299896, -1.0343299, -0.02527485)
 bind/166/name = &"J_Sec_R_SkirtSide1_02"
 bind/166/bone = -1
-bind/166/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.192999, -1.03433, -0.025275)
+bind/166/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.19299896, -1.0343299, -0.02527497)
 bind/167/name = &"J_Sec_R_SkirtSide2_02"
 bind/167/bone = -1
-bind/167/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.244944, -0.899702, -0.0165977)
+bind/167/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.24494395, -0.8997022, -0.016597651)
 bind/168/name = &"J_Sec_R_SkirtSide2_end_02"
 bind/168/bone = -1
-bind/168/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.286912, -0.771236, -0.00930059)
+bind/168/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.28691196, -0.7712363, -0.009300589)
 bind/169/name = &"J_Sec_L_SkirtSide0_02"
 bind/169/bone = -1
-bind/169/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.191879, -1.03433, -0.0252747)
+bind/169/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.19187862, -1.0343298, -0.025274655)
 bind/170/name = &"J_Sec_L_SkirtSide1_02"
 bind/170/bone = -1
-bind/170/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.191879, -1.03433, -0.0252748)
+bind/170/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.19187862, -1.0343298, -0.025274776)
 bind/171/name = &"J_Sec_L_SkirtSide2_02"
 bind/171/bone = -1
-bind/171/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.243824, -0.899701, -0.0165975)
+bind/171/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.24382357, -0.8997008, -0.016597461)
 bind/172/name = &"J_Sec_L_SkirtSide2_end_02"
 bind/172/bone = -1
-bind/172/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.285792, -0.771236, -0.00930037)
+bind/172/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.28579164, -0.77123547, -0.009300366)
 bind/173/name = &"J_Sec_R_SkirtSide0_01"
 bind/173/bone = -1
-bind/173/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.192999, -1.03433, -0.0252749)
+bind/173/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.19299896, -1.0343299, -0.02527485)
 bind/174/name = &"J_Sec_R_SkirtSide1_01"
 bind/174/bone = -1
-bind/174/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.192999, -1.03433, -0.025275)
+bind/174/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.19299896, -1.0343299, -0.02527497)
 bind/175/name = &"J_Sec_R_SkirtSide2_01"
 bind/175/bone = -1
-bind/175/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.244944, -0.899702, -0.0165977)
+bind/175/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.24494395, -0.8997022, -0.016597651)
 bind/176/name = &"J_Sec_R_SkirtSide2_end_01"
 bind/176/bone = -1
-bind/176/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.286912, -0.771236, -0.00930059)
+bind/176/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, 0.28691196, -0.7712363, -0.009300589)
 bind/177/name = &"J_Sec_L_SkirtSide0_01"
 bind/177/bone = -1
-bind/177/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.191879, -1.03433, -0.0252747)
+bind/177/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.19187862, -1.0343298, -0.025274655)
 bind/178/name = &"J_Sec_L_SkirtSide1_01"
 bind/178/bone = -1
-bind/178/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.191879, -1.03433, -0.0252748)
+bind/178/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.19187862, -1.0343298, -0.025274776)
 bind/179/name = &"J_Sec_L_SkirtSide2_01"
 bind/179/bone = -1
-bind/179/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.243824, -0.899701, -0.0165975)
+bind/179/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.24382357, -0.8997008, -0.016597461)
 bind/180/name = &"J_Sec_L_SkirtSide2_end_01"
 bind/180/bone = -1
-bind/180/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.285792, -0.771236, -0.00930037)
+bind/180/pose = Transform3D(1.11557, 0, 0, 0, 1, 0, 0, 0, 1.25114, -0.28579164, -0.77123547, -0.009300366)
 metadata/orig_skin = SubResource("Skin_ukcaj")
 
 [sub_resource type="Animation" id="Animation_60hn5"]
@@ -3192,112 +3192,112 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Joy")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0)
+tracks/0/keys = PackedFloat32Array(0, 1, 0)
 tracks/1/type = "blend_shape"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Angry")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0)
+tracks/1/keys = PackedFloat32Array(0, 1, 0)
 tracks/2/type = "blend_shape"
 tracks/2/imported = false
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Sorrow")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0)
+tracks/2/keys = PackedFloat32Array(0, 1, 0)
 tracks/3/type = "blend_shape"
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Fun")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
-tracks/3/keys = PackedFloat64Array(0, 1, 0)
+tracks/3/keys = PackedFloat32Array(0, 1, 0)
 tracks/4/type = "blend_shape"
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Surprised")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
-tracks/4/keys = PackedFloat64Array(0, 1, 0)
+tracks/4/keys = PackedFloat32Array(0, 1, 0)
 tracks/5/type = "blend_shape"
 tracks/5/imported = false
 tracks/5/enabled = true
 tracks/5/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_A")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
-tracks/5/keys = PackedFloat64Array(0, 1, 0)
+tracks/5/keys = PackedFloat32Array(0, 1, 0)
 tracks/6/type = "blend_shape"
 tracks/6/imported = false
 tracks/6/enabled = true
 tracks/6/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_I")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
-tracks/6/keys = PackedFloat64Array(0, 1, 0)
+tracks/6/keys = PackedFloat32Array(0, 1, 0)
 tracks/7/type = "blend_shape"
 tracks/7/imported = false
 tracks/7/enabled = true
 tracks/7/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_U")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
-tracks/7/keys = PackedFloat64Array(0, 1, 0)
+tracks/7/keys = PackedFloat32Array(0, 1, 0)
 tracks/8/type = "blend_shape"
 tracks/8/imported = false
 tracks/8/enabled = true
 tracks/8/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_E")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
-tracks/8/keys = PackedFloat64Array(0, 1, 0)
+tracks/8/keys = PackedFloat32Array(0, 1, 0)
 tracks/9/type = "blend_shape"
 tracks/9/imported = false
 tracks/9/enabled = true
 tracks/9/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_O")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
-tracks/9/keys = PackedFloat64Array(0, 1, 0)
+tracks/9/keys = PackedFloat32Array(0, 1, 0)
 tracks/10/type = "blend_shape"
 tracks/10/imported = false
 tracks/10/enabled = true
 tracks/10/path = NodePath("GeneralSkeleton/Face:Fcl_EYE_Close")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
-tracks/10/keys = PackedFloat64Array(0, 1, 0)
+tracks/10/keys = PackedFloat32Array(0, 1, 0)
 tracks/11/type = "blend_shape"
 tracks/11/imported = false
 tracks/11/enabled = true
 tracks/11/path = NodePath("GeneralSkeleton/Face:Fcl_EYE_Close_L")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
-tracks/11/keys = PackedFloat64Array(0, 1, 0)
+tracks/11/keys = PackedFloat32Array(0, 1, 0)
 tracks/12/type = "blend_shape"
 tracks/12/imported = false
 tracks/12/enabled = true
 tracks/12/path = NodePath("GeneralSkeleton/Face:Fcl_EYE_Close_R")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
-tracks/12/keys = PackedFloat64Array(0, 1, 0)
+tracks/12/keys = PackedFloat32Array(0, 1, 0)
 tracks/13/type = "blend_shape"
 tracks/13/imported = false
 tracks/13/enabled = true
 tracks/13/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Neutral")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
-tracks/13/keys = PackedFloat64Array(0, 1, 0)
+tracks/13/keys = PackedFloat32Array(0, 1, 0)
 tracks/14/type = "rotation_3d"
 tracks/14/imported = false
 tracks/14/enabled = true
 tracks/14/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/14/interp = 1
 tracks/14/loop_wrap = true
-tracks/14/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/14/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/15/type = "rotation_3d"
 tracks/15/imported = false
 tracks/15/enabled = true
 tracks/15/path = NodePath("GeneralSkeleton:RightEye")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
-tracks/15/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/15/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_8pmjc"]
 resource_name = "aa"
@@ -3307,21 +3307,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_A")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3335,21 +3335,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Angry")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3363,21 +3363,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_EYE_Close")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3391,21 +3391,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_EYE_Close_L")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3419,21 +3419,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_EYE_Close_R")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3447,21 +3447,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_E")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3475,21 +3475,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Joy")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3503,21 +3503,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_I")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3530,14 +3530,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0.5, 1, 0.737277, 0, 0, 0.67559)
+tracks/0/keys = PackedFloat32Array(0.5, 1, 0.737277, 0, 0, 0.67559)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0.5, 1, 0.737277, 0, 0, 0.67559)
+tracks/1/keys = PackedFloat32Array(0.5, 1, 0.737277, 0, 0, 0.67559)
 
 [sub_resource type="Animation" id="Animation_bx867"]
 tracks/0/type = "rotation_3d"
@@ -3546,14 +3546,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0.5, 1, 0.706138, 0.0370071, -0.0370071, 0.706138)
+tracks/0/keys = PackedFloat32Array(0.5, 1, 0.706138, 0.0370071, -0.0370071, 0.706138)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0.5, 1, 0.706138, 0.0370071, -0.0370071, 0.706138)
+tracks/1/keys = PackedFloat32Array(0.5, 1, 0.706138, 0.0370071, -0.0370071, 0.706138)
 
 [sub_resource type="Animation" id="Animation_kea4j"]
 tracks/0/type = "rotation_3d"
@@ -3562,14 +3562,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0.5, 1, 0.706138, -0.0370071, 0.0370071, 0.706138)
+tracks/0/keys = PackedFloat32Array(0.5, 1, 0.706138, -0.0370071, 0.0370071, 0.706138)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0.5, 1, 0.706138, -0.0370071, 0.0370071, 0.706138)
+tracks/1/keys = PackedFloat32Array(0.5, 1, 0.706138, -0.0370071, 0.0370071, 0.706138)
 
 [sub_resource type="Animation" id="Animation_rpcjw"]
 tracks/0/type = "rotation_3d"
@@ -3578,14 +3578,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0.5, 1, 0.743145, 0, 0, 0.669131)
+tracks/0/keys = PackedFloat32Array(0.5, 1, 0.743145, 0, 0, 0.669131)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0.5, 1, 0.743145, 0, 0, 0.669131)
+tracks/1/keys = PackedFloat32Array(0.5, 1, 0.743145, 0, 0, 0.669131)
 
 [sub_resource type="Animation" id="Animation_qnwob"]
 resource_name = "neutral"
@@ -3595,21 +3595,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Neutral")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3623,21 +3623,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_O")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3651,21 +3651,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_MTH_U")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3679,21 +3679,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Fun")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3707,21 +3707,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Sorrow")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3735,21 +3735,21 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton/Face:Fcl_ALL_Surprised")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.99999)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.99999)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/2/type = "rotation_3d"
 tracks/2/imported = true
 tracks/2/enabled = true
 tracks/2/path = NodePath("GeneralSkeleton:RightEye")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/2/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 metadata/vrm_is_binary = false
 metadata/vrm_override_blink = "none"
 metadata/vrm_override_look_at = "none"
@@ -3757,30 +3757,30 @@ metadata/vrm_override_mouth = "none"
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_r6plb"]
 _data = {
-"RESET": SubResource("Animation_60hn5"),
-"aa": SubResource("Animation_8pmjc"),
-"angry": SubResource("Animation_mslb7"),
-"blink": SubResource("Animation_wly7k"),
-"blinkLeft": SubResource("Animation_8q1i8"),
-"blinkRight": SubResource("Animation_0g2n3"),
-"ee": SubResource("Animation_gihcr"),
-"happy": SubResource("Animation_xkfmt"),
-"ih": SubResource("Animation_xdejh"),
-"lookDown": SubResource("Animation_fbtqg"),
-"lookLeft": SubResource("Animation_bx867"),
-"lookRight": SubResource("Animation_kea4j"),
-"lookUp": SubResource("Animation_rpcjw"),
-"neutral": SubResource("Animation_qnwob"),
-"oh": SubResource("Animation_6wcmd"),
-"ou": SubResource("Animation_333ii"),
-"relaxed": SubResource("Animation_xex0m"),
-"sad": SubResource("Animation_jaq6d"),
-"surprised": SubResource("Animation_hxcx5")
+&"RESET": SubResource("Animation_60hn5"),
+&"aa": SubResource("Animation_8pmjc"),
+&"angry": SubResource("Animation_mslb7"),
+&"blink": SubResource("Animation_wly7k"),
+&"blinkLeft": SubResource("Animation_8q1i8"),
+&"blinkRight": SubResource("Animation_0g2n3"),
+&"ee": SubResource("Animation_gihcr"),
+&"happy": SubResource("Animation_xkfmt"),
+&"ih": SubResource("Animation_xdejh"),
+&"lookDown": SubResource("Animation_fbtqg"),
+&"lookLeft": SubResource("Animation_bx867"),
+&"lookRight": SubResource("Animation_kea4j"),
+&"lookUp": SubResource("Animation_rpcjw"),
+&"neutral": SubResource("Animation_qnwob"),
+&"oh": SubResource("Animation_6wcmd"),
+&"ou": SubResource("Animation_333ii"),
+&"relaxed": SubResource("Animation_xex0m"),
+&"sad": SubResource("Animation_jaq6d"),
+&"surprised": SubResource("Animation_hxcx5")
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ubufe"]
 _data = {
-"ANIM_mocap_lyuma_08": ExtResource("7_ubker")
+&"ANIM_mocap_lyuma_08": ExtResource("7_ubker")
 }
 
 [node name="Node3D" type="Node3D"]
@@ -3800,8 +3800,8 @@ bones/3/rotation = Quaternion(0.00355236, -0.0233022, -0.00243775, 0.999719)
 bones/4/rotation = Quaternion(5.23774e-05, 3.56435e-05, -6.48943e-05, 1)
 bones/11/rotation = Quaternion(0.0381451, -0.00135976, 0.00659982, 0.999249)
 bones/12/rotation = Quaternion(0.106036, -0.0188681, -0.0925976, 0.989862)
-bones/13/rotation = Quaternion(0.707107, 0, 0, 0.707107)
-bones/14/rotation = Quaternion(0.707107, 0, 0, 0.707107)
+bones/13/rotation = Quaternion(0.7071068, 0, 0, 0.7071068)
+bones/14/rotation = Quaternion(0.7071068, 0, 0, 0.7071068)
 bones/69/rotation = Quaternion(0.585644, 0.383008, 0.56665, -0.43501)
 bones/70/rotation = Quaternion(-0.125277, 0.847796, -0.483071, -0.179414)
 bones/71/rotation = Quaternion(0.173782, -0.639115, 0.211791, 0.718663)
@@ -4651,13 +4651,13 @@ metadata/merged_skeleton_bone_owners = {
 }
 }
 
-[node name="Head" parent="Black Cat Fire Base/GeneralSkeleton" index="5"]
-transform = Transform3D(0.976894, 0.107341, -0.184814, -0.167477, 0.921681, -0.349937, 0.132777, 0.372803, 0.918362, 0.0459628, 1.37426, 0.0191556)
+[node name="Head" parent="Black Cat Fire Base/GeneralSkeleton" index="4"]
+transform = Transform3D(0.97689396, 0.10734065, -0.18481357, -0.16747665, 0.92168075, -0.34993702, 0.13277666, 0.3728034, 0.91836166, 0.045962825, 1.3742623, 0.019155562)
 
-[node name="Black Cat Fire Summer from Blender 04" parent="Black Cat Fire Base/GeneralSkeleton" index="6" instance=ExtResource("5_irrcc")]
-spring_bones = Array[ExtResource("2_clmvd")]([SubResource("Resource_sjv4r"), SubResource("Resource_rsaxe"), SubResource("Resource_fbd3j"), SubResource("Resource_p7pre"), SubResource("Resource_oplaw"), SubResource("Resource_dgopc"), SubResource("Resource_f1jri"), SubResource("Resource_tr0ej"), SubResource("Resource_2j5g4"), SubResource("Resource_qgoak"), SubResource("Resource_lhhxk"), SubResource("Resource_68ilb"), SubResource("Resource_kwb1j"), SubResource("Resource_oyibs"), SubResource("Resource_sn3xo"), SubResource("Resource_1v48j"), SubResource("Resource_simmq"), SubResource("Resource_6dfxo"), SubResource("Resource_0ibgm"), SubResource("Resource_i4kyw"), SubResource("Resource_6flm4"), SubResource("Resource_dpv48"), SubResource("Resource_utsq5"), SubResource("Resource_1uudn"), SubResource("Resource_ms1vv"), SubResource("Resource_42yyp"), SubResource("Resource_e0rx0"), SubResource("Resource_2b2rj"), SubResource("Resource_em140"), SubResource("Resource_f30df"), SubResource("Resource_rki6l"), SubResource("Resource_vhouw"), SubResource("Resource_wn77a"), SubResource("Resource_oxk6h"), SubResource("Resource_k12qv"), SubResource("Resource_tb6nf")])
-collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_8a0qu"), SubResource("Resource_2nbk6"), SubResource("Resource_eg2pb"), SubResource("Resource_rab30"), SubResource("Resource_3alpq"), SubResource("Resource_1r5uv"), SubResource("Resource_k4hd5"), SubResource("Resource_mk0sv"), SubResource("Resource_el7rh"), SubResource("Resource_lr1mx"), SubResource("Resource_6axqj"), SubResource("Resource_4d1rh")])
-collider_library = Array[ExtResource("4_x2io1")]([SubResource("Resource_hljkw"), SubResource("Resource_ifp35"), SubResource("Resource_t0uuu"), SubResource("Resource_6alec"), SubResource("Resource_5ohkq"), SubResource("Resource_j5l7c"), SubResource("Resource_bmp4c"), SubResource("Resource_8ib64"), SubResource("Resource_tmkbx"), SubResource("Resource_7nxfc"), SubResource("Resource_wt8k4"), SubResource("Resource_b1el2"), SubResource("Resource_uw0es"), SubResource("Resource_xhxm1"), SubResource("Resource_6ai1j"), SubResource("Resource_g70gc"), SubResource("Resource_vn0rs"), SubResource("Resource_w7a1m"), SubResource("Resource_0xp5u"), SubResource("Resource_6jvik"), SubResource("Resource_wlg0i"), SubResource("Resource_xfiaq"), SubResource("Resource_tqgrx"), SubResource("Resource_bdgsx"), SubResource("Resource_wqmsc"), SubResource("Resource_upn5t"), SubResource("Resource_6ltcc"), SubResource("Resource_ypxj0")])
+[node name="Black Cat Fire Summer from Blender 04" parent="Black Cat Fire Base/GeneralSkeleton" index="5" instance=ExtResource("5_irrcc")]
+spring_bones = Array[ExtResource("2_clmvd")]([SubResource("Resource_qmx4j"), SubResource("Resource_xtap5"), SubResource("Resource_k46uy"), SubResource("Resource_deyx6"), SubResource("Resource_gxwbl"), SubResource("Resource_k02hn"), SubResource("Resource_8tgh7"), SubResource("Resource_2vt22"), SubResource("Resource_llr3t"), SubResource("Resource_ahgsw"), SubResource("Resource_8ora0"), SubResource("Resource_forfl"), SubResource("Resource_0jqjb"), SubResource("Resource_us3jk"), SubResource("Resource_w61md"), SubResource("Resource_urty0"), SubResource("Resource_cm0b7"), SubResource("Resource_31nkg"), SubResource("Resource_xivik"), SubResource("Resource_eq7sk"), SubResource("Resource_fiug4"), SubResource("Resource_u5116"), SubResource("Resource_1fql6"), SubResource("Resource_jbent"), SubResource("Resource_8j7nj"), SubResource("Resource_fvnr2"), SubResource("Resource_gudig"), SubResource("Resource_tqlgx"), SubResource("Resource_lgsut"), SubResource("Resource_nesw0"), SubResource("Resource_0ypdj"), SubResource("Resource_7co0v"), SubResource("Resource_nvmga"), SubResource("Resource_thwt2"), SubResource("Resource_s2qnt"), SubResource("Resource_6j5jb")])
+collider_groups = Array[ExtResource("3_5lfuy")]([SubResource("Resource_w0u16"), SubResource("Resource_hbsx4"), SubResource("Resource_e7fy1"), SubResource("Resource_6fm8e"), SubResource("Resource_cjmwn"), SubResource("Resource_3aa4m"), SubResource("Resource_aa31u"), SubResource("Resource_waygr"), SubResource("Resource_r3qfl"), SubResource("Resource_4047n"), SubResource("Resource_ul2qn"), SubResource("Resource_k0e82")])
+collider_library = Array[ExtResource("4_x2io1")]([SubResource("Resource_toaaw"), SubResource("Resource_kmigo"), SubResource("Resource_0kc06"), SubResource("Resource_lb0nj"), SubResource("Resource_g6vt2"), SubResource("Resource_ayo34"), SubResource("Resource_vggug"), SubResource("Resource_4ml14"), SubResource("Resource_f20p0"), SubResource("Resource_qp2q8"), SubResource("Resource_6tjlh"), SubResource("Resource_4xlce"), SubResource("Resource_tbr6c"), SubResource("Resource_w55ll"), SubResource("Resource_dccmi"), SubResource("Resource_t0fsk"), SubResource("Resource_343qm"), SubResource("Resource_0q2ra"), SubResource("Resource_b4ygh"), SubResource("Resource_5qorw"), SubResource("Resource_iht5g"), SubResource("Resource_unytw"), SubResource("Resource_t3d1p"), SubResource("Resource_pgcok"), SubResource("Resource_3okrv"), SubResource("Resource_wgvim"), SubResource("Resource_pod7c"), SubResource("Resource_ngqxg")])
 
 [node name="GeneralSkeleton" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04" index="0"]
 motion_scale = 0.939127
@@ -4743,49 +4743,33 @@ metadata/renamed_bones = {
 skin = SubResource("Skin_82iej")
 skeleton = NodePath("../../..")
 
-[node name="Body (Headless)" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="2"]
+[node name="Ears" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="2"]
 skin = SubResource("Skin_82iej")
 skeleton = NodePath("../../..")
 
-[node name="Ears" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="3"]
+[node name="Body_Shoes" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="3"]
 skin = SubResource("Skin_82iej")
 skeleton = NodePath("../../..")
 
-[node name="Body_Shoes" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="4"]
+[node name="Body_Top" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="4"]
 skin = SubResource("Skin_82iej")
 skeleton = NodePath("../../..")
 
-[node name="Body_Top" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="5"]
-skin = SubResource("Skin_82iej")
-skeleton = NodePath("../../..")
-
-[node name="Body_Top (Headless)" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="6"]
-skin = SubResource("Skin_82iej")
-skeleton = NodePath("../../..")
-
-[node name="Body_Skirt" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="7"]
+[node name="Body_Skirt" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="5"]
 visible = true
 skin = SubResource("Skin_82iej")
 skeleton = NodePath("../../..")
 
-[node name="Body_Skirt (Headless)" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="8"]
+[node name="Body_Bracelet" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="6"]
 skin = SubResource("Skin_82iej")
 skeleton = NodePath("../../..")
 
-[node name="Body_Bracelet" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="9"]
+[node name="Hair" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="7"]
 skin = SubResource("Skin_82iej")
 skeleton = NodePath("../../..")
 
-[node name="Body_Bracelet (Headless)" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="10"]
-skin = SubResource("Skin_82iej")
-skeleton = NodePath("../../..")
-
-[node name="Hair" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="11"]
-skin = SubResource("Skin_82iej")
-skeleton = NodePath("../../..")
-
-[node name="Head" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="12"]
-transform = Transform3D(0.976894, 0.107341, -0.184814, -0.167477, 0.921681, -0.349937, 0.132777, 0.372803, 0.918362, 0.0459628, 1.37426, 0.0191556)
+[node name="Head" parent="Black Cat Fire Base/GeneralSkeleton/Black Cat Fire Summer from Blender 04/GeneralSkeleton" index="8"]
+transform = Transform3D(0.976894, 0.107340656, -0.18481357, -0.16747665, 0.9216808, -0.34993702, 0.13277666, 0.37280342, 0.91836166, 0.04596283, 1.3742625, 0.019155564)
 bone_name = "J_Sec_L_SkirtSide2_02"
 bone_idx = 12
 use_external_skeleton = true
@@ -4797,8 +4781,8 @@ reset_on_save = false
 
 [node name="AnimationPlayer" parent="Black Cat Fire Base" index="1"]
 libraries = {
-"": SubResource("AnimationLibrary_r6plb"),
-"TEST": SubResource("AnimationLibrary_ubufe")
+&"": SubResource("AnimationLibrary_r6plb"),
+&"TEST": SubResource("AnimationLibrary_ubufe")
 }
 autoplay = "TEST/ANIM_mocap_lyuma_08"
 

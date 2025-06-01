@@ -1,11 +1,11 @@
 [gd_scene load_steps=199 format=3 uid="uid://ch7phsaxupm67"]
 
 [ext_resource type="PackedScene" uid="uid://8etocsgka3w8" path="res://SK_merge_tool/art/SK_black_cat_fire_12.vrm" id="1_c8b2w"]
-[ext_resource type="Script" path="res://addons/vrm/vrm_collider.gd" id="2_vgcah"]
-[ext_resource type="Script" path="res://addons/vrm/vrm_meta.gd" id="2_xxp32"]
-[ext_resource type="Script" path="res://addons/vrm/vrm_collider_group.gd" id="3_xridl"]
-[ext_resource type="Script" path="res://addons/vrm/vrm_spring_bone.gd" id="4_53nyw"]
-[ext_resource type="Script" path="res://addons/unidot_importer/skeleton_merge_tool/merged_skeleton.gd" id="5_cqhdf"]
+[ext_resource type="Script" uid="uid://bmih61llrs5pd" path="res://addons/vrm/vrm_collider.gd" id="2_vgcah"]
+[ext_resource type="Script" uid="uid://dvj6la4blgs1r" path="res://addons/vrm/vrm_meta.gd" id="2_xxp32"]
+[ext_resource type="Script" uid="uid://ckr8krhsaotkg" path="res://addons/vrm/vrm_collider_group.gd" id="3_xridl"]
+[ext_resource type="Script" uid="uid://ba3ef6cbarj8j" path="res://addons/vrm/vrm_spring_bone.gd" id="4_53nyw"]
+[ext_resource type="Script" uid="uid://b3psk7kpbcyol" path="res://addons/unidot_importer/skeleton_merge_tool/merged_skeleton.gd" id="5_cqhdf"]
 [ext_resource type="Animation" uid="uid://djjjfn1fylrse" path="res://SK_merge_tool/art/ANIM_mocap_lyuma_08.tres" id="6_vtu0q"]
 
 [sub_resource type="SkeletonProfileHumanoid" id="SkeletonProfileHumanoid_0eoug"]
@@ -98,403 +98,403 @@ humanoid_bone_mapping = SubResource("BoneMap_iriwf")
 exporter_version = "saturday06_blender_vrm_exporter_experimental_2.20.28"
 spec_version = "0.0"
 
-[sub_resource type="Resource" id="Resource_60f8m"]
+[sub_resource type="Resource" id="Resource_ujs50"]
 resource_name = "Head"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "Head"
-offset = Vector3(2.10421e-08, 0.071493, 0.0214479)
-tail = Vector3(2.10421e-08, 0.071493, 0.0214479)
-radius = 0.0714932
+offset = Vector3(2.104207e-08, 0.07149303, 0.021447936)
+tail = Vector3(2.104207e-08, 0.07149303, 0.021447936)
+radius = 0.07149324249897404
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_1vyj3"]
+[sub_resource type="Resource" id="Resource_lv4il"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_60f8m")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_ujs50")])
 
-[sub_resource type="Resource" id="Resource_qg36t"]
+[sub_resource type="Resource" id="Resource_dnho2"]
 resource_name = "Neck"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "Neck"
-offset = Vector3(0, -1.19209e-07, -1.49012e-08)
-tail = Vector3(0, -1.19209e-07, -1.49012e-08)
-radius = 0.0357466
+offset = Vector3(0, -1.1920929e-07, -1.4901161e-08)
+tail = Vector3(0, -1.1920929e-07, -1.4901161e-08)
+radius = 0.03574658150406169
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_x4h33"]
+[sub_resource type="Resource" id="Resource_77cw8"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_qg36t")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_dnho2")])
 
-[sub_resource type="Resource" id="Resource_js18t"]
+[sub_resource type="Resource" id="Resource_r8rqq"]
 resource_name = "LeftUpperArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftUpperArm"
-offset = Vector3(0.033843, 9.65595e-05, 2.30055e-05)
-tail = Vector3(0.033843, 9.65595e-05, 2.30055e-05)
-radius = 0.0451243
+offset = Vector3(2.300553e-05, 0.033843026, 9.6559525e-05)
+tail = Vector3(2.300553e-05, 0.033843026, 9.6559525e-05)
+radius = 0.04512427526201135
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_xapto"]
+[sub_resource type="Resource" id="Resource_4l6jc"]
 resource_name = "LeftUpperArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftUpperArm"
-offset = Vector3(0.11281, 0.000321746, 7.66851e-05)
-tail = Vector3(0.11281, 0.000321746, 7.66851e-05)
-radius = 0.042304
+offset = Vector3(7.66851e-05, 0.112810194, 0.00032174587)
+tail = Vector3(7.66851e-05, 0.112810194, 0.00032174587)
+radius = 0.04230400642832081
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_gtya5"]
+[sub_resource type="Resource" id="Resource_ttkty"]
 resource_name = "LeftUpperArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftUpperArm"
-offset = Vector3(0.191777, 0.000547171, 0.00013037)
-tail = Vector3(0.191777, 0.000547171, 0.00013037)
-radius = 0.0394837
+offset = Vector3(0.00013037026, 0.19177738, 0.00054717064)
+tail = Vector3(0.00013037026, 0.19177738, 0.00054717064)
+radius = 0.03948374131992131
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_nljhe"]
+[sub_resource type="Resource" id="Resource_ao54m"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_js18t"), SubResource("Resource_xapto"), SubResource("Resource_gtya5")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_r8rqq"), SubResource("Resource_4l6jc"), SubResource("Resource_ttkty")])
 
-[sub_resource type="Resource" id="Resource_ocvls"]
+[sub_resource type="Resource" id="Resource_qjxvg"]
 resource_name = "RightUpperArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightUpperArm"
-offset = Vector3(0.033843, -9.65595e-05, 2.30428e-05)
-tail = Vector3(0.033843, -9.65595e-05, 2.30428e-05)
-radius = 0.0451243
+offset = Vector3(-2.3042783e-05, 0.033843048, 9.6559525e-05)
+tail = Vector3(-2.3042783e-05, 0.033843048, 9.6559525e-05)
+radius = 0.04512426615748902
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_l6pi0"]
+[sub_resource type="Resource" id="Resource_y66sa"]
 resource_name = "RightUpperArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightUpperArm"
-offset = Vector3(0.11281, -0.000321746, 7.68062e-05)
-tail = Vector3(0.11281, -0.000321746, 7.68062e-05)
-radius = 0.042304
+offset = Vector3(-7.680617e-05, 0.11281016, 0.00032174587)
+tail = Vector3(-7.680617e-05, 0.11281016, 0.00032174587)
+radius = 0.04230399766000066
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_i2elu"]
+[sub_resource type="Resource" id="Resource_m5sdb"]
 resource_name = "RightUpperArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightUpperArm"
-offset = Vector3(0.191777, -0.000546932, 0.000130568)
-tail = Vector3(0.191777, -0.000546932, 0.000130568)
-radius = 0.0394837
+offset = Vector3(-0.0001305677, 0.19177735, 0.0005469322)
+tail = Vector3(-0.0001305677, 0.19177735, 0.0005469322)
+radius = 0.03948373288780289
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_n84tn"]
+[sub_resource type="Resource" id="Resource_tyyqg"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_ocvls"), SubResource("Resource_l6pi0"), SubResource("Resource_i2elu")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_qjxvg"), SubResource("Resource_y66sa"), SubResource("Resource_m5sdb")])
 
-[sub_resource type="Resource" id="Resource_ehahe"]
+[sub_resource type="Resource" id="Resource_hvl43"]
 resource_name = "LeftLowerArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftLowerArm"
-offset = Vector3(0.0385555, 0.000110388, -1.75294e-05)
-tail = Vector3(0.0385555, 0.000110388, -1.75294e-05)
-radius = 0.0385557
+offset = Vector3(0.0001103878, 0.038555503, -1.7529353e-05)
+tail = Vector3(0.0001103878, 0.038555503, -1.7529353e-05)
+radius = 0.038555674
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_teifl"]
+[sub_resource type="Resource" id="Resource_df7si"]
 resource_name = "LeftLowerArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftLowerArm"
-offset = Vector3(0.112913, 0.000323176, -5.13457e-05)
-tail = Vector3(0.112913, 0.000323176, -5.13457e-05)
-radius = 0.0358017
+offset = Vector3(0.00032317638, 0.112912536, -5.1345676e-05)
+tail = Vector3(0.00032317638, 0.112912536, -5.1345676e-05)
+radius = 0.035801698
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_rw05t"]
+[sub_resource type="Resource" id="Resource_gpeyj"]
 resource_name = "LeftLowerArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftLowerArm"
-offset = Vector3(0.18727, 0.000535965, -8.51657e-05)
-tail = Vector3(0.18727, 0.000535965, -8.51657e-05)
-radius = 0.0330477
+offset = Vector3(0.00053596497, 0.18726975, -8.5165724e-05)
+tail = Vector3(0.00053596497, 0.18726975, -8.5165724e-05)
+radius = 0.03304772
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_j8g3c"]
+[sub_resource type="Resource" id="Resource_as2ph"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_ehahe"), SubResource("Resource_teifl"), SubResource("Resource_rw05t")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_hvl43"), SubResource("Resource_df7si"), SubResource("Resource_gpeyj")])
 
-[sub_resource type="Resource" id="Resource_nakvs"]
+[sub_resource type="Resource" id="Resource_jmffi"]
 resource_name = "RightLowerArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightLowerArm"
-offset = Vector3(0.0385555, -0.000110269, -1.76188e-05)
-tail = Vector3(0.0385555, -0.000110269, -1.76188e-05)
-radius = 0.0385557
+offset = Vector3(-0.00011026859, 0.038555473, -1.761876e-05)
+tail = Vector3(-0.00011026859, 0.038555473, -1.761876e-05)
+radius = 0.03855566965869972
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_v60vq"]
+[sub_resource type="Resource" id="Resource_cpvaq"]
 resource_name = "RightLowerArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightLowerArm"
-offset = Vector3(0.112912, -0.000323057, -5.16046e-05)
-tail = Vector3(0.112912, -0.000323057, -5.16046e-05)
-radius = 0.0358017
+offset = Vector3(-0.00032305717, 0.112912446, -5.1604584e-05)
+tail = Vector3(-0.00032305717, 0.112912446, -5.1604584e-05)
+radius = 0.03580169325450688
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_x8474"]
+[sub_resource type="Resource" id="Resource_5yrw4"]
 resource_name = "RightLowerArm"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightLowerArm"
-offset = Vector3(0.18727, -0.000535846, -8.5596e-05)
-tail = Vector3(0.18727, -0.000535846, -8.5596e-05)
-radius = 0.0330477
+offset = Vector3(-0.00053584576, 0.18726954, -8.5595995e-05)
+tail = Vector3(-0.00053584576, 0.18726954, -8.5595995e-05)
+radius = 0.03304771685031404
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_i1h2f"]
+[sub_resource type="Resource" id="Resource_q2sbu"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_nakvs"), SubResource("Resource_v60vq"), SubResource("Resource_x8474")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_jmffi"), SubResource("Resource_cpvaq"), SubResource("Resource_5yrw4")])
 
-[sub_resource type="Resource" id="Resource_rinfb"]
+[sub_resource type="Resource" id="Resource_bytdk"]
 resource_name = "LeftHand"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftHand"
-offset = Vector3(0.0648272, -0.00338054, -0.000972152)
-tail = Vector3(0.0648272, -0.00338054, -0.000972152)
-radius = 0.0649225
+offset = Vector3(-0.00097215176, 0.064827204, -0.003380537)
+tail = Vector3(-0.00097215176, 0.064827204, -0.003380537)
+radius = 0.06492251057649694
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_dj566"]
+[sub_resource type="Resource" id="Resource_lmbxr"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_rinfb")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_bytdk")])
 
-[sub_resource type="Resource" id="Resource_onjik"]
+[sub_resource type="Resource" id="Resource_58f0e"]
 resource_name = "RightHand"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightHand"
-offset = Vector3(0.0648271, 0.00338054, -0.000972018)
-tail = Vector3(0.0648271, 0.00338054, -0.000972018)
-radius = 0.0649225
+offset = Vector3(0.00097201765, 0.064827144, -0.003380537)
+tail = Vector3(0.00097201765, 0.064827144, -0.003380537)
+radius = 0.06492249122808294
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_kbxg1"]
+[sub_resource type="Resource" id="Resource_ayyxe"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_onjik")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_58f0e")])
 
-[sub_resource type="Resource" id="Resource_7e3iy"]
+[sub_resource type="Resource" id="Resource_3ljw0"]
 resource_name = "LeftUpperLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftUpperLeg"
-offset = Vector3(0.001676, 0.0905322, -0.00155564)
-tail = Vector3(0.001676, 0.0905322, -0.00155564)
-radius = 0.0724489
+offset = Vector3(0.0016760007, 0.09053224, -0.001555644)
+tail = Vector3(0.0016760007, 0.09053224, -0.001555644)
+radius = 0.07244893019499517
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_agbp3"]
+[sub_resource type="Resource" id="Resource_m5yy7"]
 resource_name = "LeftUpperLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftUpperLeg"
-offset = Vector3(0.00419001, 0.226331, -0.00388911)
-tail = Vector3(0.00419001, 0.226331, -0.00388911)
-radius = 0.0724489
+offset = Vector3(0.004190013, 0.2263307, -0.0038891053)
+tail = Vector3(0.004190013, 0.2263307, -0.0038891053)
+radius = 0.07244893019499517
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_mbymw"]
+[sub_resource type="Resource" id="Resource_j26xs"]
 resource_name = "LeftUpperLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftUpperLeg"
-offset = Vector3(0.00670402, 0.362129, -0.00622257)
-tail = Vector3(0.00670402, 0.362129, -0.00622257)
-radius = 0.0724489
+offset = Vector3(0.006704025, 0.36212915, -0.006222569)
+tail = Vector3(0.006704025, 0.36212915, -0.006222569)
+radius = 0.07244893019499517
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_cr0nt"]
+[sub_resource type="Resource" id="Resource_sds65"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_7e3iy"), SubResource("Resource_agbp3"), SubResource("Resource_mbymw")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_3ljw0"), SubResource("Resource_m5yy7"), SubResource("Resource_j26xs")])
 
-[sub_resource type="Resource" id="Resource_ktwfg"]
+[sub_resource type="Resource" id="Resource_q4aki"]
 resource_name = "RightUpperLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightUpperLeg"
-offset = Vector3(-0.00167613, 0.0905322, -0.00155562)
-tail = Vector3(-0.00167613, 0.0905322, -0.00155562)
-radius = 0.0724489
+offset = Vector3(-0.0016761273, 0.09053224, -0.0015556244)
+tail = Vector3(-0.0016761273, 0.09053224, -0.0015556244)
+radius = 0.07244894027101179
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_li8rs"]
+[sub_resource type="Resource" id="Resource_653ff"]
 resource_name = "RightUpperLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightUpperLeg"
-offset = Vector3(-0.00419031, 0.226331, -0.00388906)
-tail = Vector3(-0.00419031, 0.226331, -0.00388906)
-radius = 0.0724489
+offset = Vector3(-0.004190311, 0.22633058, -0.0038890606)
+tail = Vector3(-0.004190311, 0.22633058, -0.0038890606)
+radius = 0.07244894027101179
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_5n13x"]
+[sub_resource type="Resource" id="Resource_pvoal"]
 resource_name = "RightUpperLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightUpperLeg"
-offset = Vector3(-0.00670449, 0.362129, -0.0062225)
-tail = Vector3(-0.00670449, 0.362129, -0.0062225)
-radius = 0.0724489
+offset = Vector3(-0.0067044944, 0.36212897, -0.0062224963)
+tail = Vector3(-0.0067044944, 0.36212897, -0.0062224963)
+radius = 0.07244894027101179
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_dvu3i"]
+[sub_resource type="Resource" id="Resource_jgu18"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_ktwfg"), SubResource("Resource_li8rs"), SubResource("Resource_5n13x")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_q4aki"), SubResource("Resource_653ff"), SubResource("Resource_pvoal")])
 
-[sub_resource type="Resource" id="Resource_78dat"]
+[sub_resource type="Resource" id="Resource_ihsll"]
 resource_name = "LeftLowerLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftLowerLeg"
-offset = Vector3(-0.00333419, 0.127704, 0.00661724)
-tail = Vector3(-0.00333419, 0.127704, 0.00661724)
-radius = 0.0639594
+offset = Vector3(-0.0033341944, 0.1277039, 0.0066172387)
+tail = Vector3(-0.0033341944, 0.1277039, 0.0066172387)
+radius = 0.06395935013058374
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_7a7qc"]
+[sub_resource type="Resource" id="Resource_mpbu5"]
 resource_name = "LeftLowerLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftLowerLeg"
-offset = Vector3(-0.00652947, 0.250087, 0.0129588)
-tail = Vector3(-0.00652947, 0.250087, 0.0129588)
-radius = 0.0639594
+offset = Vector3(-0.006529473, 0.25008684, 0.012958763)
+tail = Vector3(-0.006529473, 0.25008684, 0.012958763)
+radius = 0.06395935013058374
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_o8p4d"]
+[sub_resource type="Resource" id="Resource_r67tb"]
 resource_name = "LeftLowerLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftLowerLeg"
-offset = Vector3(-0.00972475, 0.37247, 0.0193003)
-tail = Vector3(-0.00972475, 0.37247, 0.0193003)
-radius = 0.0639594
+offset = Vector3(-0.009724751, 0.37246972, 0.019300282)
+tail = Vector3(-0.009724751, 0.37246972, 0.019300282)
+radius = 0.06395935013058374
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_j27vv"]
+[sub_resource type="Resource" id="Resource_ekvwu"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_78dat"), SubResource("Resource_7a7qc"), SubResource("Resource_o8p4d")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_ihsll"), SubResource("Resource_mpbu5"), SubResource("Resource_r67tb")])
 
-[sub_resource type="Resource" id="Resource_eul7g"]
+[sub_resource type="Resource" id="Resource_qwynf"]
 resource_name = "RightLowerLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightLowerLeg"
-offset = Vector3(0.00333447, 0.127704, 0.0066172)
-tail = Vector3(0.00333447, 0.127704, 0.0066172)
-radius = 0.0639594
+offset = Vector3(0.00333447, 0.12770385, 0.0066171996)
+tail = Vector3(0.00333447, 0.12770385, 0.0066171996)
+radius = 0.06395937046271438
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_xahcy"]
+[sub_resource type="Resource" id="Resource_x406k"]
 resource_name = "RightLowerLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightLowerLeg"
-offset = Vector3(0.00653, 0.250087, 0.0129587)
-tail = Vector3(0.00653, 0.250087, 0.0129587)
-radius = 0.0639594
+offset = Vector3(0.0065300018, 0.25008675, 0.012958685)
+tail = Vector3(0.0065300018, 0.25008675, 0.012958685)
+radius = 0.06395937046271438
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_npd5a"]
+[sub_resource type="Resource" id="Resource_od7ri"]
 resource_name = "RightLowerLeg"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightLowerLeg"
-offset = Vector3(0.00972553, 0.37247, 0.0193002)
-tail = Vector3(0.00972553, 0.37247, 0.0193002)
-radius = 0.0639594
+offset = Vector3(0.009725533, 0.37246966, 0.019300167)
+tail = Vector3(0.009725533, 0.37246966, 0.019300167)
+radius = 0.06395937046271438
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_bwh8v"]
+[sub_resource type="Resource" id="Resource_e2fli"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_eul7g"), SubResource("Resource_xahcy"), SubResource("Resource_npd5a")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_qwynf"), SubResource("Resource_x406k"), SubResource("Resource_od7ri")])
 
-[sub_resource type="Resource" id="Resource_svcv4"]
+[sub_resource type="Resource" id="Resource_v6bad"]
 resource_name = "LeftFoot"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "LeftFoot"
-offset = Vector3(0.00178374, -0.0475766, 0.0857139)
-tail = Vector3(0.00178374, -0.0475766, 0.0857139)
-radius = 0.0653659
+offset = Vector3(0.0017837435, 0.08571391, -0.04757659)
+tail = Vector3(0.0017837435, 0.08571391, -0.04757659)
+radius = 0.06536594354523029
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_f5bjb"]
+[sub_resource type="Resource" id="Resource_3dngb"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_svcv4")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_v6bad")])
 
-[sub_resource type="Resource" id="Resource_8y52u"]
+[sub_resource type="Resource" id="Resource_0q7r0"]
 resource_name = "RightFoot"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "RightFoot"
-offset = Vector3(-0.00178417, -0.0475765, 0.085714)
-tail = Vector3(-0.00178417, -0.0475765, 0.085714)
-radius = 0.065366
+offset = Vector3(-0.0017841719, 0.08571403, -0.047576472)
+tail = Vector3(-0.0017841719, 0.08571403, -0.047576472)
+radius = 0.06536597601285146
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_bpmmc"]
+[sub_resource type="Resource" id="Resource_a0agd"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_8y52u")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_0q7r0")])
 
-[sub_resource type="Resource" id="Resource_uesuo"]
+[sub_resource type="Resource" id="Resource_ut2cs"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Bust1_L", "Bust2_L", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -503,17 +503,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_8kutb"]
+[sub_resource type="Resource" id="Resource_1t1ei"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Bust1_R", "Bust2_R", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -522,43 +522,43 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_8adw3"]
+[sub_resource type="Resource" id="Resource_7ga7w"]
 resource_name = "Chest"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "Chest"
-offset = Vector3(-3.72529e-09, 0.104594, 0.000616934)
-tail = Vector3(-3.72529e-09, 0.104594, 0.000616934)
-radius = 0.125224
+offset = Vector3(-3.7252903e-09, 0.10459447, 0.00061693415)
+tail = Vector3(-3.7252903e-09, 0.10459447, 0.00061693415)
+radius = 0.12522447
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_0xbin"]
+[sub_resource type="Resource" id="Resource_ri7le"]
 resource_name = "Chest"
 script = ExtResource("2_vgcah")
 node_path = NodePath("")
 bone = "Chest"
-offset = Vector3(3.7835e-09, -0.105148, -0.000956289)
-tail = Vector3(3.7835e-09, -0.105148, -0.000956289)
-radius = 0.125224
+offset = Vector3(3.783498e-09, -0.10514796, -0.00095628947)
+tail = Vector3(3.783498e-09, -0.10514796, -0.00095628947)
+radius = 0.12522447
 is_capsule = false
 gizmo_color = Color(1, 0, 1, 1)
 
-[sub_resource type="Resource" id="Resource_jrb8e"]
+[sub_resource type="Resource" id="Resource_bkwk5"]
 script = ExtResource("3_xridl")
-colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_8adw3"), SubResource("Resource_0xbin")])
+colliders = Array[ExtResource("2_vgcah")]([SubResource("Resource_7ga7w"), SubResource("Resource_ri7le")])
 
-[sub_resource type="Resource" id="Resource_xkywk"]
+[sub_resource type="Resource" id="Resource_hcxj1"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("CatEar1_01_L", "CatEar2_01_L", "CatEar2_end_01_L", "CatEar2_end_01_end_L", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -567,17 +567,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_hcin7"]
+[sub_resource type="Resource" id="Resource_rjwh7"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("CatEar1_01_R", "CatEar2_01_R", "CatEar2_end_01_R", "CatEar2_end_01_end_R", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -586,17 +586,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_2e3io"]
+[sub_resource type="Resource" id="Resource_om1xd"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_01", "Hair2_01", "Hair3_01", "Hair3_01_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -605,17 +605,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_qd7a5"]
+[sub_resource type="Resource" id="Resource_ap4fy"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_02", "Hair2_02", "Hair3_02", "Hair3_02_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -624,17 +624,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_1ql11"]
+[sub_resource type="Resource" id="Resource_agx2w"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_03", "Hair2_03", "Hair3_03", "Hair3_03_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -643,17 +643,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_8gd7e"]
+[sub_resource type="Resource" id="Resource_dl54g"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_04", "Hair2_04", "Hair3_04", "Hair3_04_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -662,17 +662,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_6v4x4"]
+[sub_resource type="Resource" id="Resource_k13np"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_05", "Hair2_05", "Hair3_05", "Hair3_05_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -681,17 +681,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_rbvp7"]
+[sub_resource type="Resource" id="Resource_ok6wk"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_06", "Hair2_06", "Hair3_06", "Hair3_06_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -700,17 +700,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_ipvx2"]
+[sub_resource type="Resource" id="Resource_bnoxy"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_07", "Hair2_07", "Hair3_07", "Hair3_07_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -719,17 +719,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_72ykc"]
+[sub_resource type="Resource" id="Resource_pjgf8"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_08", "Hair2_08", "Hair3_08", "Hair4_08", "Hair5_08", "Hair5_08_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -738,17 +738,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_jghsu"]
+[sub_resource type="Resource" id="Resource_ij3ka"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_09", "Hair2_09", "Hair3_09", "Hair4_09", "Hair5_09", "Hair5_09_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -757,17 +757,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_j4usb"]
+[sub_resource type="Resource" id="Resource_3dgyo"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair1_10", "Hair2_10", "Hair3_10", "Hair4_10", "Hair5_10", "Hair5_10_end", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -776,17 +776,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_v4yx2"]
+[sub_resource type="Resource" id="Resource_oa25a"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair_Middle_R", "Hair_Middle_R_001", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -795,17 +795,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_qlm2b"]
+[sub_resource type="Resource" id="Resource_uywc6"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair_Middle_L", "Hair_Middle_L_001", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -814,17 +814,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_41rqd"]
+[sub_resource type="Resource" id="Resource_tkhra"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair_Side_R", "Hair_Side_R_001", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -833,17 +833,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_7f7lo"]
+[sub_resource type="Resource" id="Resource_e266k"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair_Side_L", "Hair_Side_L_001", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -852,17 +852,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_sw7ah"]
+[sub_resource type="Resource" id="Resource_30awy"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Hair_Back", "Hair_Back_001", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -871,17 +871,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_kav3c"]
+[sub_resource type="Resource" id="Resource_nr0tm"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Ahoge", "Ahoge_001", "Ahoge_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -890,17 +890,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_cdjum"]
+[sub_resource type="Resource" id="Resource_1x5t8"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("SideBang_R", "SideBang_R_001", "SideBang_R_002", "SideBang_R_003", "SideBang_R_004", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -909,17 +909,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_o46bt"]
+[sub_resource type="Resource" id="Resource_4x2ff"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("SideBang_L", "SideBang_L_001", "SideBang_L_002", "SideBang_L_003", "SideBang_L_004", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -928,17 +928,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_bp2e8"]
+[sub_resource type="Resource" id="Resource_i0nxl"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Ear_R", "Ear_R_001", "Ear_R_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -947,17 +947,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_5yhgp"]
+[sub_resource type="Resource" id="Resource_ndcc4"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Ear_L", "Ear_L_001", "Ear_L_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_jrb8e"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_bkwk5"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -966,17 +966,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_vm6tf"]
+[sub_resource type="Resource" id="Resource_dvy5v"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Breasts_R", "Breasts_2_R", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -985,17 +985,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_81dbi"]
+[sub_resource type="Resource" id="Resource_ejwd5"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Breasts_L", "Breasts_2_L", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1004,17 +1004,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_fkadt"]
+[sub_resource type="Resource" id="Resource_l057g"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Skirt_S_R", "Skirt_S_R_001", "Skirt_S_R_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1023,17 +1023,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_2yw37"]
+[sub_resource type="Resource" id="Resource_f7fln"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Skirt_F", "Skirt_F_001", "Skirt_F_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1042,17 +1042,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_qgqhh"]
+[sub_resource type="Resource" id="Resource_0jras"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Skirt_B_R", "Skirt_B_R_001", "Skirt_B_R_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1061,17 +1061,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_jgxhk"]
+[sub_resource type="Resource" id="Resource_1nclo"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Skirt_B_L", "Skirt_B_L_001", "Skirt_B_L_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1080,17 +1080,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_f7weu"]
+[sub_resource type="Resource" id="Resource_8vlau"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Skirt_S_L", "Skirt_S_L_001", "Skirt_S_L_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1099,17 +1099,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_53mxb"]
+[sub_resource type="Resource" id="Resource_5e2ke"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Skirt_F_R", "Skirt_F_R_001", "Skirt_F_R_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1118,17 +1118,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_ff13u"]
+[sub_resource type="Resource" id="Resource_qaeak"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Skirt_F_L", "Skirt_F_L_001", "Skirt_F_L_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -1137,17 +1137,17 @@ hit_radius = PackedFloat64Array()
 center_bone = ""
 center_node = NodePath("")
 
-[sub_resource type="Resource" id="Resource_je8s5"]
+[sub_resource type="Resource" id="Resource_xa46a"]
 resource_name = "Generated by VRMSpringBoneTool 1.1.2"
 script = ExtResource("4_53nyw")
 comment = "Generated by VRMSpringBoneTool 1.1.2"
 joint_nodes = PackedStringArray("Tail_Root", "Tail", "Tail_001", "Tail_002", "")
 stiffness_scale = 1.0
 drag_force_scale = 0.4
-hit_radius_scale = 0.02
+hit_radius_scale = 0.01999999955296516
 gravity_scale = 0.0
 gravity_dir_default = Vector3(0, -1, 0)
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd")])
 stiffness_force = PackedFloat64Array()
 gravity_power = PackedFloat64Array()
 gravity_dir = PackedVector3Array()
@@ -2767,523 +2767,523 @@ bind/3/bone = -1
 bind/3/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0760714, -0.896375, 0.031306)
 bind/4/name = &"Tail_Root"
 bind/4/bone = -1
-bind/4/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263859, -0.956191, 0.0296001)
+bind/4/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263859, -0.956191, 0.02960009)
 bind/5/name = &"Tail"
 bind/5/bone = -1
-bind/5/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263861, -0.955136, 0.06437)
+bind/5/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263861, -0.955136, 0.06436998)
 bind/6/name = &"Tail_001"
 bind/6/bone = -1
-bind/6/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263865, -0.958767, 0.146535)
+bind/6/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263865, -0.958767, 0.14653495)
 bind/7/name = &"Tail_002"
 bind/7/bone = -1
-bind/7/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263865, -0.988787, 0.196172)
+bind/7/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263865, -0.988787, 0.19617195)
 bind/8/name = &"Skirt_Root"
 bind/8/bone = -1
-bind/8/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263865, -0.846311, -0.0216582)
+bind/8/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263865, -0.8463109, -0.021658197)
 bind/9/name = &"Skirt_F_L"
 bind/9/bone = -1
-bind/9/pose = Transform3D(0.832061, -0.554684, 0, 0.554684, 0.832061, 0, 0, 0, 1, 0.511956, -0.869091, -0.0938608)
+bind/9/pose = Transform3D(0.83206093, -0.55468416, 0, 0.55468416, 0.83206093, 0, 0, 0, 1, 0.5119555, -0.86909044, -0.09386079)
 bind/10/name = &"Skirt_F_L_001"
 bind/10/bone = -1
-bind/10/pose = Transform3D(0.99998, -0.00637027, 0, 0.00637027, 0.99998, 0, 0, 0, 1, -0.129648, -0.878409, -0.125006)
+bind/10/pose = Transform3D(0.9999797, -0.006370187, 0, 0.006370187, 0.9999797, 0, 0, 0, 1, -0.1296483, -0.8784091, -0.12500599)
 bind/11/name = &"Skirt_F_L_002"
 bind/11/bone = -1
-bind/11/pose = Transform3D(0.99998, -0.00637027, 0, 0.00637027, 0.99998, 0, 0, 0, 1, -0.209621, -0.749375, -0.156152)
+bind/11/pose = Transform3D(0.9999797, -0.006370187, 0, 0.006370187, 0.9999797, 0, 0, 0, 1, -0.2096213, -0.74937505, -0.15615198)
 bind/12/name = &"Skirt_F_R"
 bind/12/bone = -1
-bind/12/pose = Transform3D(0.832061, 0.554684, 0, -0.554684, 0.832061, 0, 0, 0, 1, -0.511516, -0.869383, -0.093861)
+bind/12/pose = Transform3D(0.83206093, 0.55468416, 0, -0.55468416, 0.83206093, 0, 0, 0, 1, -0.5115163, -0.86938334, -0.09386098)
 bind/13/name = &"Skirt_F_R_001"
 bind/13/bone = -1
-bind/13/pose = Transform3D(0.99998, 0.00637027, 0, -0.00637027, 0.99998, 0, 0, 0, 1, 0.130176, -0.878413, -0.125006)
+bind/13/pose = Transform3D(0.9999797, 0.006370187, 0, -0.006370187, 0.9999797, 0, 0, 0, 1, 0.13017635, -0.8784125, -0.12500612)
 bind/14/name = &"Skirt_F_R_002"
 bind/14/bone = -1
-bind/14/pose = Transform3D(0.99998, 0.00637027, 0, -0.00637027, 0.99998, 0, 0, 0, 1, 0.210149, -0.749379, -0.156152)
+bind/14/pose = Transform3D(0.9999797, 0.006370187, 0, -0.006370187, 0.9999797, 0, 0, 0, 1, 0.21014935, -0.74937844, -0.15615211)
 bind/15/name = &"Skirt_S_L"
 bind/15/bone = -1
-bind/15/pose = Transform3D(0.998789, 0.0491985, 0, -0.0491985, 0.998789, 0, 0, 0, 1, -0.165314, -1.00695, -0.0097827)
+bind/15/pose = Transform3D(0.998789, 0.04919851, 0, -0.04919851, 0.998789, 0, 0, 0, 1, -0.16531432, -1.006946, -0.009782704)
 bind/16/name = &"Skirt_S_L_001"
 bind/16/bone = -1
-bind/16/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.203128, -0.896351, 0.0233665)
+bind/16/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.20312804, -0.8963507, 0.0233665)
 bind/17/name = &"Skirt_S_L_002"
 bind/17/bone = -1
-bind/17/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.290682, -0.778838, 0.0565155)
+bind/17/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.290682, -0.7788377, 0.05651553)
 bind/18/name = &"Skirt_B_L"
 bind/18/bone = -1
-bind/18/pose = Transform3D(0.983006, -0.183574, 0, 0.183574, 0.983006, 0, 0, 0, 1, 0.126851, -0.99178, 0.0571158)
+bind/18/pose = Transform3D(0.9830059, -0.18357396, 0, 0.18357396, 0.9830059, 0, 0, 0, 1, 0.12685134, -0.99177957, 0.057115775)
 bind/19/name = &"Skirt_B_L_001"
 bind/19/bone = -1
-bind/19/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0840828, -0.885364, 0.115629)
+bind/19/pose = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, -0.08408278, -0.8853636, 0.11562899)
 bind/20/name = &"Skirt_B_L_002"
 bind/20/bone = -1
-bind/20/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.110796, -0.772516, 0.174142)
+bind/20/pose = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, -0.11079606, -0.77251554, 0.17414197)
 bind/21/name = &"Skirt_B_R"
 bind/21/bone = -1
-bind/21/pose = Transform3D(0.983006, 0.183574, 0, -0.183574, 0.983006, 0, 0, 0, 1, -0.126333, -0.991877, 0.0571155)
+bind/21/pose = Transform3D(0.9830059, 0.18357396, 0, -0.18357396, 0.9830059, 0, 0, 0, 1, -0.12633283, -0.99187654, 0.057115503)
 bind/22/name = &"Skirt_B_R_001"
 bind/22/bone = -1
-bind/22/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0846103, -0.885364, 0.115629)
+bind/22/pose = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, 0.08461031, -0.88536376, 0.115629025)
 bind/23/name = &"Skirt_B_R_002"
 bind/23/bone = -1
-bind/23/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.111324, -0.772516, 0.174142)
+bind/23/pose = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, 0.111324035, -0.7725158, 0.174142)
 bind/24/name = &"Skirt_F"
 bind/24/bone = -1
-bind/24/pose = Transform3D(0.999887, -0.0187716, -0.00207075, 0.0150442, 1.24763, 0.137629, 7.96836e-09, -0.823251, 0.208622, 0.019028, -1.24712, 0.789081)
+bind/24/pose = Transform3D(0.9998868, -0.018771619, -0.0020707457, 0.015044169, 1.2476263, 0.13762873, 8.381903e-09, -0.82325107, 0.20862179, 0.019027952, -1.2471247, 0.7890813)
 bind/25/name = &"Skirt_F_001"
 bind/25/bone = -1
-bind/25/pose = Transform3D(1.00003, -0.00118042, 0.034446, -0.00176458, 0.747407, -2.2894, 0.00860936, -0.382779, 2.51067, -0.00327048, -0.345484, -0.000149947)
+bind/25/pose = Transform3D(1.0000265, -0.00118042, 0.03444596, -0.0017645797, 0.7474069, -2.2893953, 0.008609358, -0.38277912, 2.510666, -0.0032704794, -0.3454836, -0.00014999509)
 bind/26/name = &"Skirt_F_002"
 bind/26/bone = -1
-bind/26/pose = Transform3D(1.00003, -0.00118042, 0.034446, -0.00176458, 0.747407, -2.2894, 0.00860936, -0.382779, 2.51067, -0.00327048, -0.225955, -0.0194705)
+bind/26/pose = Transform3D(1.0000265, -0.00118042, 0.03444596, -0.0017645797, 0.7474069, -2.2893953, 0.008609358, -0.38277912, 2.510666, -0.0032704838, -0.22595471, -0.019470572)
 bind/27/name = &"Skirt_S_R"
 bind/27/bone = -1
-bind/27/pose = Transform3D(0.998789, -0.0491985, 0, 0.0491985, 0.998789, 0, 0, 0, 1, 0.165842, -1.00692, -0.00978244)
+bind/27/pose = Transform3D(0.998789, -0.04919851, 0, 0.04919851, 0.998789, 0, 0, 0, 1, 0.16584188, -1.0069202, -0.009782443)
 bind/28/name = &"Skirt_S_R_001"
 bind/28/bone = -1
-bind/28/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.203656, -0.896351, 0.0233666)
+bind/28/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20365608, -0.8963508, 0.023366645)
 bind/29/name = &"Skirt_S_R_002"
 bind/29/bone = -1
-bind/29/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.29121, -0.778838, 0.0565157)
+bind/29/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2912101, -0.77883786, 0.05651568)
 bind/30/name = &"RightUpperLeg"
 bind/30/bone = -1
-bind/30/pose = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, -0.0794443, 0.898385, -0.00876833)
+bind/30/pose = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, -0.07944429, 0.898385, -0.008768327)
 bind/31/name = &"RightLowerLeg"
 bind/31/bone = -1
-bind/31/pose = Transform3D(1, 0, 0, 0, -1, 0, 0, 0, -1, 0.0727399, 0.536256, 0.00254583)
+bind/31/pose = Transform3D(1, 0, 0, 0, -1, 0, 0, 0, -1, 0.07273989, 0.5362558, 0.0025458336)
 bind/32/name = &"RightFoot"
 bind/32/bone = -1
-bind/32/pose = Transform3D(-1, 0, 0, 0, 2.22045e-16, 1, 0, 1, -2.22045e-16, -0.061625, 0.0195115, -0.110576)
+bind/32/pose = Transform3D(-1, 0, 0, 0, 0, 1, 0, 1, 0, -0.061625004, 0.019511545, -0.110576)
 bind/33/name = &"RightToes"
 bind/33/bone = -1
-bind/33/pose = Transform3D(1, 0, 0, 0, 2.22045e-16, 1, 0, -1, 2.22045e-16, 0.0592461, -0.0947743, 0.047141)
+bind/33/pose = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.059246108, -0.09477426, 0.047141016)
 bind/34/name = &"LeftUpperLeg"
 bind/34/bone = -1
-bind/34/pose = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, 0.0789166, 0.898385, -0.00876832)
+bind/34/pose = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, 0.078916594, 0.89838505, -0.008768325)
 bind/35/name = &"LeftLowerLeg"
 bind/35/bone = -1
-bind/35/pose = Transform3D(1, 0, 0, 0, -1, 0, 0, 0, -1, -0.0722126, 0.536255, 0.00254577)
+bind/35/pose = Transform3D(1, 0, 0, 0, -1, 0, 0, 0, -1, -0.072212584, 0.5362549, 0.002545772)
 bind/36/name = &"LeftFoot"
 bind/36/bone = -1
-bind/36/pose = Transform3D(-1, 0, 0, 0, 2.22045e-16, 1, 0, 1, -2.22045e-16, 0.0610986, 0.0195117, -0.110576)
+bind/36/pose = Transform3D(-1, 0, 0, 0, 0, 1, 0, 1, 0, 0.061098576, 0.019511733, -0.110576175)
 bind/37/name = &"LeftToes"
 bind/37/bone = -1
-bind/37/pose = Transform3D(1, 0, 0, 0, 2.22045e-16, 1, 0, -1, 2.22045e-16, -0.0587203, -0.0947737, 0.0471406)
+bind/37/pose = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.058720276, -0.09477368, 0.047140565)
 bind/38/name = &"Spine"
 bind/38/bone = -1
-bind/38/pose = Transform3D(0.933379, 0, 0, 0, 1, 0, 0, 0, 1, 0.000246275, -0.99264, -0.0761777)
+bind/38/pose = Transform3D(0.933379, 0, 0, 0, 1, 0, 0, 0, 1, 0.00024627484, -0.99263996, -0.076177746)
 bind/39/name = &"Chest"
 bind/39/bone = -1
-bind/39/pose = Transform3D(1, 0, 0, 0, 0.999197, -0.040062, 0, 0.040062, 0.999197, 0.000263844, -1.10659, -0.0728868)
+bind/39/pose = Transform3D(1.0000036, 0, 0, 0, 0.9991972, -0.04006197, 0, 0.04006197, 0.9991972, 0.00026384392, -1.1065885, -0.07288681)
 bind/40/name = &"Breasts_L"
 bind/40/bone = -1
-bind/40/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0539883, -1.19546, -0.0653481)
+bind/40/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.053988285, -1.1954607, -0.065348096)
 bind/41/name = &"Breasts_2_L"
 bind/41/bone = -1
-bind/41/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0617915, -1.20137, -0.118613)
+bind/41/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.06179148, -1.2013707, -0.118612766)
 bind/42/name = &"Bust2_R"
 bind/42/bone = -1
-bind/42/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0849032, -1.21768, -0.136387)
+bind/42/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.08490318, -1.2176758, -0.13638675)
 bind/43/name = &"Breasts_2_R"
 bind/43/bone = -1
-bind/43/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.062319, -1.20137, -0.118613)
+bind/43/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.062318973, -1.2013701, -0.118612945)
 bind/44/name = &"Bust1_R"
 bind/44/bone = -1
-bind/44/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0572362, -1.21164, -0.084255)
+bind/44/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.05723623, -1.2116399, -0.08425503)
 bind/45/name = &"Bust2_R"
 bind/45/bone = -1
-bind/45/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0849031, -1.21767, -0.136387)
+bind/45/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.084903084, -1.2176698, -0.13638718)
 bind/46/name = &"Bust1_L"
 bind/46/bone = -1
-bind/46/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0567086, -1.21164, -0.0842548)
+bind/46/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.056708585, -1.2116399, -0.084254794)
 bind/47/name = &"Bust2_L"
 bind/47/bone = -1
-bind/47/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0843756, -1.21767, -0.136387)
+bind/47/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.08437556, -1.2176698, -0.136387)
 bind/48/name = &"UpperChest"
 bind/48/bone = -1
-bind/48/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263849, -1.21909, -0.0134653)
+bind/48/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026384892, -1.2190903, -0.013465252)
 bind/49/name = &"RightShoulder"
 bind/49/bone = -1
-bind/49/pose = Transform3D(0, 0, -1, -1, 0, 0, 0, 1, 0, -0.0172899, -0.0232468, -1.32755)
+bind/49/pose = Transform3D(0, 0, -1, -1.0000036, 0, 0, 0, 1, 0, -0.017289948, -0.023246802, -1.3275504)
 bind/50/name = &"RightUpperArm"
 bind/50/bone = -1
-bind/50/pose = Transform3D(0, 0, 1, -1, 0, 0, 0, -1, 0, 0.0172899, -0.124744, 1.3131)
+bind/50/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.017289948, -0.12474395, 1.3131003)
 bind/51/name = &"RightLowerArm"
 bind/51/bone = -1
-bind/51/pose = Transform3D(0, 1, -2.22045e-16, -1, 0, 0, 0, 2.22045e-16, 1, -1.31246, -0.350364, 0.0174438)
+bind/51/pose = Transform3D(0, 1, 0, -1.0000036, 0, 0, 0, 0, 1, -1.3124605, -0.35036433, 0.017443763)
 bind/52/name = &"RightHand"
 bind/52/bone = -1
-bind/52/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0182246, -0.570682, 1.31183)
+bind/52/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.018224647, -0.57068145, 1.3118309)
 bind/53/name = &"RightThumbMetacarpal"
 bind/53/bone = -1
-bind/53/pose = Transform3D(8.2873e-17, -1, 2.13348e-16, -0.816996, 8.29232e-17, 0.577702, -0.577704, -2.13478e-16, -0.816993, 1.30168, -0.468532, -0.332621)
+bind/53/pose = Transform3D(0, -0.99999994, 0, -0.81699604, 2.4348363e-08, 0.5777009, -0.5777031, 1.721692e-08, -0.8169932, 1.3016804, -0.46853244, -0.3326209)
 bind/54/name = &"RightThumbProximal"
 bind/54/bone = -1
-bind/54/pose = Transform3D(8.2873e-17, -1, 2.13348e-16, -0.816996, 8.29232e-17, 0.577702, -0.577704, -2.13478e-16, -0.816993, 1.29925, -0.516107, -0.328116)
+bind/54/pose = Transform3D(0, -0.99999994, 0, -0.81699616, 2.4348363e-08, 0.57770103, -0.5777031, 1.7216921e-08, -0.8169932, 1.2992505, -0.5161075, -0.32811585)
 bind/55/name = &"RightThumbDistal"
 bind/55/bone = -1
-bind/55/pose = Transform3D(8.2873e-17, -1, 2.13348e-16, -0.816996, 8.29232e-17, 0.577702, -0.577704, -2.13478e-16, -0.816993, 1.29793, -0.545475, -0.326678)
+bind/55/pose = Transform3D(0, -1, 0, -0.81699616, 2.4348362e-08, 0.57770103, -0.57770324, 1.721692e-08, -0.8169933, 1.2979306, -0.54547554, -0.32667795)
 bind/56/name = &"RightRingProximal"
 bind/56/bone = -1
-bind/56/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0316017, -0.638059, 1.31885)
+bind/56/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.031601656, -0.6380585, 1.3188506)
 bind/57/name = &"RightRingIntermediate"
 bind/57/bone = -1
-bind/57/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0317999, -0.673334, 1.31864)
+bind/57/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.031799857, -0.6733345, 1.3186406)
 bind/58/name = &"RightRingDistal"
 bind/58/bone = -1
-bind/58/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0319144, -0.693692, 1.31851)
+bind/58/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.031914357, -0.69369256, 1.3185107)
 bind/59/name = &"RightMiddleProximal"
 bind/59/bone = -1
-bind/59/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0155576, -0.638846, 1.31898)
+bind/59/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.015557559, -0.63884646, 1.3189806)
 bind/60/name = &"RightMiddleIntermediate"
 bind/60/bone = -1
-bind/60/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0156421, -0.676875, 1.31873)
+bind/60/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.015642058, -0.6768755, 1.3187306)
 bind/61/name = &"RightMiddleDistal"
 bind/61/bone = -1
-bind/61/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0156941, -0.700335, 1.31857)
+bind/61/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.015694058, -0.70033544, 1.3185706)
 bind/62/name = &"RightLittleProximal"
 bind/62/bone = -1
-bind/62/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0475944, -0.63341, 1.31874)
+bind/62/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.047594376, -0.6334095, 1.3187406)
 bind/63/name = &"RightLittleIntermediate"
 bind/63/bone = -1
-bind/63/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0477958, -0.665676, 1.31857)
+bind/63/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.047795776, -0.6656764, 1.3185706)
 bind/64/name = &"RightLittleDistal"
 bind/64/bone = -1
-bind/64/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, 0.0479115, -0.684273, 1.31842)
+bind/64/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, 0.047911476, -0.6842734, 1.3184206)
 bind/65/name = &"RightIndexProximal"
 bind/65/bone = -1
-bind/65/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, -0.00251425, -0.637945, 1.31915)
+bind/65/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, -0.0025142587, -0.63794446, 1.3191506)
 bind/66/name = &"RightIndexIntermediate"
 bind/66/bone = -1
-bind/66/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, -0.0025609, -0.672087, 1.31899)
+bind/66/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, -0.0025609087, -0.6720865, 1.3189906)
 bind/67/name = &"RightIndexDistal"
 bind/67/bone = -1
-bind/67/pose = Transform3D(0, 9.44458e-24, 1, -1, 0, 0, 0, -1, -9.44458e-24, -0.00234906, -0.693094, 1.31828)
+bind/67/pose = Transform3D(0, 0, 1, -1.0000036, 0, 0, 0, -1, 0, -0.0023490684, -0.69309354, 1.3182806)
 bind/68/name = &"LeftShoulder"
 bind/68/bone = -1
-bind/68/pose = Transform3D(0, 0, 1, 1, 0, 0, 0, 1, 0, 0.0172899, -0.0227192, -1.32755)
+bind/68/pose = Transform3D(0, 0, 1, 1.0000036, 0, 0, 0, 1, 0, 0.017289925, -0.022719247, -1.3275503)
 bind/69/name = &"LeftUpperArm"
 bind/69/bone = -1
-bind/69/pose = Transform3D(0, 0, -1, 1, 0, 0, 0, -1, 0, -0.01729, -0.124216, 1.3131)
+bind/69/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.017290026, -0.12421601, 1.3131002)
 bind/70/name = &"LeftLowerArm"
 bind/70/bone = -1
-bind/70/pose = Transform3D(0, -1, 2.22045e-16, 1, 0, 0, 0, 2.22045e-16, 1, 1.31246, -0.349837, 0.0302043)
+bind/70/pose = Transform3D(0, -1, 0, 1.0000036, 0, 0, 0, 0, 1, 1.3124602, -0.34983742, 0.030204225)
 bind/71/name = &"LeftHand"
 bind/71/bone = -1
-bind/71/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0182233, -0.570155, 1.31183)
+bind/71/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.01822324, -0.5701548, 1.3118303)
 bind/72/name = &"LeftThumbMetacarpal"
 bind/72/bone = -1
-bind/72/pose = Transform3D(8.2873e-17, 1, -2.13348e-16, 0.816996, 8.29232e-17, 0.577702, 0.577704, -2.13478e-16, -0.816993, -1.30168, -0.468102, -0.332316)
+bind/72/pose = Transform3D(0, 0.99999994, 0, 0.8169959, 0, 0.577702, 0.577704, 0, -0.8169929, -1.3016801, -0.4681017, -0.33231637)
 bind/73/name = &"LeftThumbProximal"
 bind/73/bone = -1
-bind/73/pose = Transform3D(8.2873e-17, 1, -2.13348e-16, 0.816996, 8.29232e-17, 0.577702, 0.577704, -2.13478e-16, -0.816993, -1.29923, -0.515678, -0.327826)
+bind/73/pose = Transform3D(0, 0.99999994, 0, 0.8169959, 0, 0.577702, 0.577704, 0, -0.8169929, -1.2992301, -0.5156777, -0.32782632)
 bind/74/name = &"LeftThumbDistal"
 bind/74/bone = -1
-bind/74/pose = Transform3D(8.2873e-17, 1, -2.13348e-16, 0.816996, 8.29232e-17, 0.577702, 0.577704, -2.13478e-16, -0.816993, -1.29789, -0.545046, -0.326396)
+bind/74/pose = Transform3D(0, 1, 0, 0.8169959, 0, 0.577702, 0.57770413, 0, -0.81699294, -1.2978902, -0.5450457, -0.32639635)
 bind/75/name = &"LeftRingProximal"
 bind/75/bone = -1
-bind/75/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0316005, -0.637532, 1.31885)
+bind/75/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.031600397, -0.6375318, 1.3188503)
 bind/76/name = &"LeftRingIntermediate"
 bind/76/bone = -1
-bind/76/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.031799, -0.672808, 1.31864)
+bind/76/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.0317989, -0.6728078, 1.3186402)
 bind/77/name = &"LeftRingDistal"
 bind/77/bone = -1
-bind/77/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0319135, -0.693165, 1.31851)
+bind/77/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.0319134, -0.69316494, 1.3185103)
 bind/78/name = &"LeftMiddleProximal"
 bind/78/bone = -1
-bind/78/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0155564, -0.63832, 1.31898)
+bind/78/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.015556364, -0.6383198, 1.3189802)
 bind/79/name = &"LeftMiddleIntermediate"
 bind/79/bone = -1
-bind/79/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0156409, -0.676348, 1.31873)
+bind/79/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.015640864, -0.67634785, 1.3187302)
 bind/80/name = &"LeftMiddleDistal"
 bind/80/bone = -1
-bind/80/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0156929, -0.699809, 1.31856)
+bind/80/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.015692864, -0.6998088, 1.3185602)
 bind/81/name = &"LeftLittleProximal"
 bind/81/bone = -1
-bind/81/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0475933, -0.632883, 1.31874)
+bind/81/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.047593232, -0.63288283, 1.3187402)
 bind/82/name = &"LeftLittleIntermediate"
 bind/82/bone = -1
-bind/82/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0477954, -0.66515, 1.31857)
+bind/82/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.047795333, -0.66514975, 1.3185703)
 bind/83/name = &"LeftLittleDistal"
 bind/83/bone = -1
-bind/83/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, -0.0479115, -0.683747, 1.31842)
+bind/83/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, -0.04791143, -0.68374676, 1.3184203)
 bind/84/name = &"LeftIndexProximal"
 bind/84/bone = -1
-bind/84/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, 0.00251536, -0.637418, 1.31915)
+bind/84/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, 0.0025154399, -0.6374178, 1.3191502)
 bind/85/name = &"LeftIndexIntermediate"
 bind/85/bone = -1
-bind/85/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, 0.0025618, -0.671559, 1.31899)
+bind/85/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, 0.00256188, -0.67155874, 1.3189902)
 bind/86/name = &"LeftIndexDistal"
 bind/86/bone = -1
-bind/86/pose = Transform3D(0, -9.44458e-24, -1, 1, 0, 0, 0, -1, -9.44458e-24, 0.00234984, -0.692566, 1.31828)
+bind/86/pose = Transform3D(0, 0, -1, 1.0000036, 0, 0, 0, -1, 0, 0.00234992, -0.6925658, 1.3182802)
 bind/87/name = &"Neck"
 bind/87/bone = -1
-bind/87/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263856, -1.35485, 0.0258974)
+bind/87/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026385594, -1.3548504, 0.025897447)
 bind/88/name = &"Head"
 bind/88/bone = -1
-bind/88/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263823, -1.42994, 0.0165088)
+bind/88/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026382293, -1.4299403, 0.01650885)
 bind/89/name = &"Ear_Root"
 bind/89/bone = -1
-bind/89/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263758, -1.55416, 0.0116211)
+bind/89/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026375795, -1.55416, 0.011621054)
 bind/90/name = &"Ear_L"
 bind/90/bone = -1
-bind/90/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0877532, -1.54043, -0.00132913)
+bind/90/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.087753214, -1.54043, -0.0013291242)
 bind/91/name = &"Ear_L_001"
 bind/91/bone = -1
-bind/91/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.128672, -1.5073, 0.00940261)
+bind/91/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.128672, -1.5073, 0.009402616)
 bind/92/name = &"Ear_L_002"
 bind/92/bone = -1
-bind/92/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.152313, -1.48257, 0.0103774)
+bind/92/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.152313, -1.48257, 0.010377406)
 bind/93/name = &"Ear_R"
 bind/93/bone = -1
-bind/93/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0879858, -1.54043, -0.00132887)
+bind/93/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.087985754, -1.54043, -0.0013288654)
 bind/94/name = &"Ear_R_001"
 bind/94/bone = -1
-bind/94/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.128904, -1.5073, 0.00940291)
+bind/94/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.128904, -1.5073, 0.009402915)
 bind/95/name = &"Ear_R_002"
 bind/95/bone = -1
-bind/95/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.152545, -1.48257, 0.0103777)
+bind/95/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.15254503, -1.48257, 0.010377656)
 bind/96/name = &"Hair_Root"
 bind/96/bone = -1
-bind/96/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263766, -1.56762, 0.00144353)
+bind/96/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026376592, -1.5676202, 0.001443536)
 bind/97/name = &"SideBang_L"
 bind/97/bone = -1
-bind/97/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.104494, -1.54961, -0.0312906)
+bind/97/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.10449402, -1.5496101, -0.031290613)
 bind/98/name = &"SideBang_L_001"
 bind/98/bone = -1
-bind/98/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0979161, -1.49889, -0.0322133)
+bind/98/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.09791612, -1.4988902, -0.032213315)
 bind/99/name = &"SideBang_L_002"
 bind/99/bone = -1
-bind/99/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0913379, -1.44817, -0.0366577)
+bind/99/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.09133792, -1.4481701, -0.03665771)
 bind/100/name = &"SideBang_L_003"
 bind/100/bone = -1
-bind/100/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0861308, -1.39746, -0.0528977)
+bind/100/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.08613082, -1.3974601, -0.052897654)
 bind/101/name = &"SideBang_L_004"
 bind/101/bone = -1
-bind/101/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0824802, -1.35765, -0.0758738)
+bind/101/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.08248022, -1.3576502, -0.07587381)
 bind/102/name = &"SideBang_R"
 bind/102/bone = -1
-bind/102/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104727, -1.54961, -0.0312906)
+bind/102/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.10472705, -1.5496101, -0.03129056)
 bind/103/name = &"SideBang_R_001"
 bind/103/bone = -1
-bind/103/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0981488, -1.49889, -0.0322134)
+bind/103/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.098148756, -1.4988902, -0.03221336)
 bind/104/name = &"SideBang_R_002"
 bind/104/bone = -1
-bind/104/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0915706, -1.44817, -0.0366578)
+bind/104/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.09157055, -1.4481701, -0.036657758)
 bind/105/name = &"SideBang_R_003"
 bind/105/bone = -1
-bind/105/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0863635, -1.39746, -0.0528976)
+bind/105/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.08636355, -1.3974601, -0.052897606)
 bind/106/name = &"SideBang_R_004"
 bind/106/bone = -1
-bind/106/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.082713, -1.35765, -0.0758738)
+bind/106/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.082713045, -1.3576502, -0.07587376)
 bind/107/name = &"Ahoge"
 bind/107/bone = -1
-bind/107/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263642, -1.68557, -0.0106351)
+bind/107/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026364194, -1.6855702, -0.010635098)
 bind/108/name = &"Ahoge_001"
 bind/108/bone = -1
-bind/108/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0154886, -1.70173, -0.00864537)
+bind/108/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.015488599, -1.7017303, -0.008645364)
 bind/109/name = &"Ahoge_002"
 bind/109/bone = -1
-bind/109/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0395115, -1.71098, 0.00279146)
+bind/109/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.0395115, -1.7109803, 0.002791458)
 bind/110/name = &"Hair_Back"
 bind/110/bone = -1
-bind/110/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263775, -1.50733, 0.0721982)
+bind/110/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026377494, -1.5073301, 0.07219819)
 bind/111/name = &"Hair_Back_001"
 bind/111/bone = -1
-bind/111/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263801, -1.44746, 0.0764481)
+bind/111/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026380093, -1.4474602, 0.07644808)
 bind/112/name = &"Hair_Front"
 bind/112/bone = -1
-bind/112/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000263759, -1.63257, -0.0878788)
+bind/112/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026375894, -1.6325701, -0.08787875)
 bind/113/name = &"Hair_Side_L"
 bind/113/bone = -1
-bind/113/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0776709, -1.57574, -0.0965849)
+bind/113/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.077670895, -1.5757401, -0.09658485)
 bind/114/name = &"Hair_Side_L_001"
 bind/114/bone = -1
-bind/114/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0799332, -1.53882, -0.0940068)
+bind/114/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.07993319, -1.5388201, -0.094006754)
 bind/115/name = &"Hair_Side_R"
 bind/115/bone = -1
-bind/115/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0779037, -1.57574, -0.0965849)
+bind/115/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.07790375, -1.5757401, -0.09658485)
 bind/116/name = &"Hair_Side_R_001"
 bind/116/bone = -1
-bind/116/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0801661, -1.53882, -0.0940067)
+bind/116/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.08016604, -1.5388201, -0.09400665)
 bind/117/name = &"Hair_Middle_L"
 bind/117/bone = -1
-bind/117/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0307444, -1.601, -0.117424)
+bind/117/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.030744443, -1.6010001, -0.117424086)
 bind/118/name = &"Hair_Middle_L_001"
 bind/118/bone = -1
-bind/118/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0330066, -1.57135, -0.115428)
+bind/118/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.033006646, -1.5713501, -0.1154281)
 bind/119/name = &"Hair_Middle_R"
 bind/119/bone = -1
-bind/119/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0309772, -1.601, -0.117424)
+bind/119/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.030977193, -1.6010001, -0.117424004)
 bind/120/name = &"Hair_Middle_R_001"
 bind/120/bone = -1
-bind/120/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0332394, -1.57135, -0.115428)
+bind/120/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.033239394, -1.5713501, -0.11542801)
 bind/121/name = &"Hair1_10"
 bind/121/bone = -1
-bind/121/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.101983, -1.54804, 0.0518942)
+bind/121/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.101983, -1.5480404, 0.05189425)
 bind/122/name = &"Hair2_10"
 bind/122/bone = -1
-bind/122/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.107709, -1.44057, 0.0759997)
+bind/122/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.107709, -1.44057, 0.075999655)
 bind/123/name = &"Hair3_10"
 bind/123/bone = -1
-bind/123/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.128602, -1.33582, 0.100912)
+bind/123/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.12860197, -1.3358195, 0.10091198)
 bind/124/name = &"Hair4_10"
 bind/124/bone = -1
-bind/124/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.173097, -1.23784, 0.124579)
+bind/124/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.173097, -1.2378396, 0.124578945)
 bind/125/name = &"Hair5_10"
 bind/125/bone = -1
-bind/125/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.178757, -1.13187, 0.119376)
+bind/125/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.178757, -1.1318692, 0.119375944)
 bind/126/name = &"Hair5_10_end"
 bind/126/bone = -1
-bind/126/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.182487, -1.06205, 0.115948)
+bind/126/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.182487, -1.0620492, 0.11594794)
 bind/127/name = &"Hair1_09"
 bind/127/bone = -1
-bind/127/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.102315, -1.52752, 0.0572754)
+bind/127/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.102315, -1.5275203, 0.05727545)
 bind/128/name = &"Hair2_09"
 bind/128/bone = -1
-bind/128/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.108085, -1.42521, 0.0799258)
+bind/128/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.10808501, -1.4252107, 0.07992584)
 bind/129/name = &"Hair3_09"
 bind/129/bone = -1
-bind/129/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13454, -1.32662, 0.101056)
+bind/129/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.13453998, -1.3266207, 0.1010559)
 bind/130/name = &"Hair4_09"
 bind/130/bone = -1
-bind/130/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.174292, -1.23281, 0.125414)
+bind/130/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.17429201, -1.2328107, 0.12541386)
 bind/131/name = &"Hair5_09"
 bind/131/bone = -1
-bind/131/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.178229, -1.13187, 0.119376)
+bind/131/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.17822902, -1.1318707, 0.119375855)
 bind/132/name = &"Hair5_09_end"
 bind/132/bone = -1
-bind/132/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.180953, -1.06204, 0.1152)
+bind/132/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.180953, -1.0620407, 0.11519986)
 bind/133/name = &"Hair1_08"
 bind/133/bone = -1
-bind/133/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00410177, -1.49642, 0.112062)
+bind/133/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.0041017714, -1.4964204, 0.11206195)
 bind/134/name = &"Hair2_08"
 bind/134/bone = -1
-bind/134/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0106692, -1.39221, 0.108407)
+bind/134/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.010669204, -1.3922102, 0.108406946)
 bind/135/name = &"Hair3_08"
 bind/135/bone = -1
-bind/135/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00566529, -1.2892, 0.128073)
+bind/135/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.0056652953, -1.2891998, 0.12807293)
 bind/136/name = &"Hair4_08"
 bind/136/bone = -1
-bind/136/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00202303, -1.18983, 0.161305)
+bind/136/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.0020230347, -1.1898298, 0.16130488)
 bind/137/name = &"Hair5_08"
 bind/137/bone = -1
-bind/137/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0136924, -1.09004, 0.154058)
+bind/137/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.013692389, -1.0900398, 0.15405788)
 bind/138/name = &"Hair5_08_end"
 bind/138/bone = -1
-bind/138/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0245535, -1.02107, 0.149049)
+bind/138/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.024553454, -1.0210699, 0.14904888)
 bind/139/name = &"Hair1_07"
 bind/139/bone = -1
-bind/139/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.106222, -1.4935, -0.00806803)
+bind/139/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.106221616, -1.4935004, -0.008068029)
 bind/140/name = &"Hair2_07"
 bind/140/bone = -1
-bind/140/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0953299, -1.4484, -0.00906596)
+bind/140/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.09532988, -1.4484004, -0.009065959)
 bind/141/name = &"Hair3_07"
 bind/141/bone = -1
-bind/141/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0727327, -1.40902, -0.0176496)
+bind/141/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.072732665, -1.4090203, -0.017649641)
 bind/142/name = &"Hair3_07_end"
 bind/142/bone = -1
-bind/142/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0384963, -1.34937, -0.0306545)
+bind/142/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.038496297, -1.3493704, -0.030654503)
 bind/143/name = &"Hair1_06"
 bind/143/bone = -1
-bind/143/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.106674, -1.49353, -0.00809523)
+bind/143/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.106674455, -1.4935304, -0.008095225)
 bind/144/name = &"Hair2_06"
 bind/144/bone = -1
-bind/144/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0957663, -1.44816, -0.00902976)
+bind/144/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.09576629, -1.4481604, -0.009029755)
 bind/145/name = &"Hair3_06"
 bind/145/bone = -1
-bind/145/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0730215, -1.40903, -0.0182505)
+bind/145/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.073021546, -1.4090303, -0.018250538)
 bind/146/name = &"Hair3_06_end"
 bind/146/bone = -1
-bind/146/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038553, -1.34973, -0.0322241)
+bind/146/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.038552966, -1.3497304, -0.032224137)
 bind/147/name = &"Hair1_05"
 bind/147/bone = -1
-bind/147/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0756046, -1.56074, -0.0594406)
+bind/147/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.0756046, -1.5607404, -0.05944055)
 bind/148/name = &"Hair2_05"
 bind/148/bone = -1
-bind/148/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0809353, -1.51352, -0.0585341)
+bind/148/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.0809353, -1.5135204, -0.05853405)
 bind/149/name = &"Hair3_05"
 bind/149/bone = -1
-bind/149/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0625288, -1.47189, -0.0644053)
+bind/149/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.06252875, -1.4718903, -0.064405344)
 bind/150/name = &"Hair3_05_end"
 bind/150/bone = -1
-bind/150/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0344555, -1.40839, -0.0733602)
+bind/150/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.034455456, -1.4083904, -0.07336024)
 bind/151/name = &"Hair1_04"
 bind/151/bone = -1
-bind/151/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0550276, -1.57574, -0.0744083)
+bind/151/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.0550276, -1.5757403, -0.074408256)
 bind/152/name = &"Hair2_04"
 bind/152/bone = -1
-bind/152/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0664152, -1.53583, -0.0722159)
+bind/152/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.066415176, -1.5358304, -0.07221586)
 bind/153/name = &"Hair3_04"
 bind/153/bone = -1
-bind/153/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0682135, -1.49466, -0.0668722)
+bind/153/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.06821348, -1.4946604, -0.06687216)
 bind/154/name = &"Hair3_04_end"
 bind/154/bone = -1
-bind/154/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0712428, -1.4253, -0.057871)
+bind/154/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.07124278, -1.4253004, -0.05787096)
 bind/155/name = &"Hair1_03"
 bind/155/bone = -1
-bind/155/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000866426, -1.57068, -0.0949685)
+bind/155/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.000866426, -1.5706804, -0.09496845)
 bind/156/name = &"Hair2_03"
 bind/156/bone = -1
-bind/156/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00553549, -1.53125, -0.0976799)
+bind/156/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.005535489, -1.5312504, -0.09767985)
 bind/157/name = &"Hair3_03"
 bind/157/bone = -1
-bind/157/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0184032, -1.49474, -0.0904837)
+bind/157/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.018403206, -1.4947404, -0.09048375)
 bind/158/name = &"Hair3_03_end"
 bind/158/bone = -1
-bind/158/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0412842, -1.42984, -0.077688)
+bind/158/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.041284215, -1.4298403, -0.077688)
 bind/159/name = &"Hair1_02"
 bind/159/bone = -1
-bind/159/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0863104, -1.48382, -0.0440949)
+bind/159/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.086310394, -1.4838203, -0.044094853)
 bind/160/name = &"Hair2_02"
 bind/160/bone = -1
-bind/160/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0770557, -1.44465, -0.0454338)
+bind/160/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.07705569, -1.4446504, -0.045433752)
 bind/161/name = &"Hair3_02"
 bind/161/bone = -1
-bind/161/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.055659, -1.41293, -0.0557398)
+bind/161/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.055658996, -1.4129304, -0.05573985)
 bind/162/name = &"Hair3_02_end"
 bind/162/bone = -1
-bind/162/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0178559, -1.3569, -0.0739484)
+bind/162/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.017855925, -1.3569003, -0.07394844)
 bind/163/name = &"Hair1_01"
 bind/163/bone = -1
-bind/163/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0879843, -1.48962, -0.0433451)
+bind/163/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.08798428, -1.4896203, -0.043345056)
 bind/164/name = &"Hair2_01"
 bind/164/bone = -1
-bind/164/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0775128, -1.44788, -0.0455627)
+bind/164/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.07751278, -1.4478804, -0.045562655)
 bind/165/name = &"Hair3_01"
 bind/165/bone = -1
-bind/165/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0561866, -1.41293, -0.05574)
+bind/165/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.056186605, -1.4129304, -0.05574)
 bind/166/name = &"Hair3_01_end"
 bind/166/bone = -1
-bind/166/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0207989, -1.35495, -0.0726276)
+bind/166/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.020798892, -1.3549503, -0.07262764)
 bind/167/name = &"CatEar1_01_R"
 bind/167/bone = -1
-bind/167/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.084678, -1.60099, 0.0158938)
+bind/167/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.084677964, -1.6009903, 0.01589385)
 bind/168/name = &"CatEar2_01_R"
 bind/168/bone = -1
-bind/168/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.084678, -1.60099, 0.0158937)
+bind/168/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.084677964, -1.6009903, 0.01589375)
 bind/169/name = &"CatEar2_end_01_R"
 bind/169/bone = -1
-bind/169/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13257, -1.66951, -0.00836153)
+bind/169/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.13256997, -1.6695102, -0.0083615305)
 bind/170/name = &"CatEar2_end_01_end_R"
 bind/170/bone = -1
-bind/170/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.171083, -1.72461, -0.027867)
+bind/170/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, 0.17108294, -1.7246102, -0.027866984)
 bind/171/name = &"CatEar1_01_L"
 bind/171/bone = -1
-bind/171/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0841506, -1.60099, 0.0158939)
+bind/171/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.084150605, -1.6009903, 0.015893891)
 bind/172/name = &"CatEar2_01_L"
 bind/172/bone = -1
-bind/172/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0841507, -1.60099, 0.0158939)
+bind/172/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.0841507, -1.6009903, 0.015893891)
 bind/173/name = &"CatEar2_end_01_L"
 bind/173/bone = -1
-bind/173/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.132042, -1.66951, -0.00836149)
+bind/173/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.13204212, -1.6695102, -0.0083614895)
 bind/174/name = &"CatEar2_end_01_end_L"
 bind/174/bone = -1
-bind/174/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.170555, -1.72461, -0.0278669)
+bind/174/pose = Transform3D(1.0000036, 0, 0, 0, 1, 0, 0, 0, 1, -0.1705551, -1.7246102, -0.027866894)
 bind/175/name = &"RightEye"
 bind/175/bone = -1
-bind/175/pose = Transform3D(1, 0, 0, 0, -2.22045e-16, 1, 0, -1, -2.22045e-16, 0.0180399, -0.00548973, 1.49423)
+bind/175/pose = Transform3D(1.0000036, 0, 0, 0, 0, 1, 0, -1, 0, 0.018039893, -0.005489731, 1.4942304)
 bind/176/name = &"LeftEye"
 bind/176/bone = -1
-bind/176/pose = Transform3D(1, 0, 0, 0, -2.22045e-16, 1, 0, -1, -2.22045e-16, -0.0175123, -0.00548973, 1.49423)
+bind/176/pose = Transform3D(1.0000036, 0, 0, 0, 0, 1, 0, -1, 0, -0.017512348, -0.0054897293, 1.4942304)
 metadata/orig_skin = SubResource("Skin_xmce2")
 
 [sub_resource type="Animation" id="Animation_adc4x"]
@@ -3294,14 +3294,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_dskxc"]
 resource_name = "aa"
@@ -3311,14 +3311,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_8ji55"]
 resource_name = "angry"
@@ -3328,14 +3328,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_qav25"]
 resource_name = "blink"
@@ -3345,14 +3345,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_au6b2"]
 resource_name = "blinkLeft"
@@ -3362,14 +3362,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_mgatf"]
 resource_name = "blinkRight"
@@ -3379,14 +3379,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_nv5v2"]
 resource_name = "ee"
@@ -3396,14 +3396,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_moemf"]
 resource_name = "happy"
@@ -3413,14 +3413,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_babbp"]
 resource_name = "ih"
@@ -3430,14 +3430,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_jh5yo"]
 tracks/0/type = "rotation_3d"
@@ -3446,14 +3446,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(1, 1, 0.766044, 0, 0, 0.642788)
+tracks/0/keys = PackedFloat32Array(1, 1, 0.766044, 0, 0, 0.642788)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(1, 1, 0.766044, 0, 0, 0.642788)
+tracks/1/keys = PackedFloat32Array(1, 1, 0.766044, 0, 0, 0.642788)
 
 [sub_resource type="Animation" id="Animation_hyjh1"]
 resource_name = "lookDown"
@@ -3463,14 +3463,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_iv08k"]
 tracks/0/type = "rotation_3d"
@@ -3479,14 +3479,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(1, 1, 0.704416, 0.0616284, -0.0616284, 0.704416)
+tracks/0/keys = PackedFloat32Array(1, 1, 0.704416, 0.0616284, -0.0616284, 0.704416)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(1, 1, 0.704416, 0.0616284, -0.0616284, 0.704416)
+tracks/1/keys = PackedFloat32Array(1, 1, 0.704416, 0.0616284, -0.0616284, 0.704416)
 
 [sub_resource type="Animation" id="Animation_skqqx"]
 resource_name = "lookLeft"
@@ -3496,14 +3496,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_41ynp"]
 tracks/0/type = "rotation_3d"
@@ -3512,14 +3512,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(1, 1, 0.704416, -0.0616284, 0.0616284, 0.704416)
+tracks/0/keys = PackedFloat32Array(1, 1, 0.704416, -0.0616284, 0.0616284, 0.704416)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(1, 1, 0.704416, -0.0616284, 0.0616284, 0.704416)
+tracks/1/keys = PackedFloat32Array(1, 1, 0.704416, -0.0616284, 0.0616284, 0.704416)
 
 [sub_resource type="Animation" id="Animation_o5a6f"]
 resource_name = "lookRight"
@@ -3529,14 +3529,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_4rlhi"]
 tracks/0/type = "rotation_3d"
@@ -3545,14 +3545,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(1, 1, 0.642788, 0, 0, 0.766044)
+tracks/0/keys = PackedFloat32Array(1, 1, 0.642788, 0, 0, 0.766044)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(1, 1, 0.642788, 0, 0, 0.766044)
+tracks/1/keys = PackedFloat32Array(1, 1, 0.642788, 0, 0, 0.766044)
 
 [sub_resource type="Animation" id="Animation_tsism"]
 resource_name = "lookUp"
@@ -3562,14 +3562,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_ysa1f"]
 resource_name = "neutral"
@@ -3579,14 +3579,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_mdek1"]
 resource_name = "oh"
@@ -3596,14 +3596,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_1nqgh"]
 resource_name = "ou"
@@ -3613,14 +3613,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_y8csn"]
 resource_name = "relaxed"
@@ -3630,14 +3630,14 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="Animation" id="Animation_mj13c"]
 resource_name = "sad"
@@ -3647,44 +3647,44 @@ tracks/0/enabled = true
 tracks/0/path = NodePath("GeneralSkeleton:LeftEye")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/0/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 tracks/1/type = "rotation_3d"
 tracks/1/imported = true
 tracks/1/enabled = true
 tracks/1/path = NodePath("GeneralSkeleton:RightEye")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat64Array(0, 1, 0.707107, 0, 0, 0.707107)
+tracks/1/keys = PackedFloat32Array(0, 1, 0.707107, 0, 0, 0.707107)
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_effnx"]
 _data = {
-"RESET": SubResource("Animation_adc4x"),
-"aa": SubResource("Animation_dskxc"),
-"angry": SubResource("Animation_8ji55"),
-"blink": SubResource("Animation_qav25"),
-"blinkLeft": SubResource("Animation_au6b2"),
-"blinkRight": SubResource("Animation_mgatf"),
-"ee": SubResource("Animation_nv5v2"),
-"happy": SubResource("Animation_moemf"),
-"ih": SubResource("Animation_babbp"),
-"lookDown": SubResource("Animation_jh5yo"),
-"lookDownRaw": SubResource("Animation_hyjh1"),
-"lookLeft": SubResource("Animation_iv08k"),
-"lookLeftRaw": SubResource("Animation_skqqx"),
-"lookRight": SubResource("Animation_41ynp"),
-"lookRightRaw": SubResource("Animation_o5a6f"),
-"lookUp": SubResource("Animation_4rlhi"),
-"lookUpRaw": SubResource("Animation_tsism"),
-"neutral": SubResource("Animation_ysa1f"),
-"oh": SubResource("Animation_mdek1"),
-"ou": SubResource("Animation_1nqgh"),
-"relaxed": SubResource("Animation_y8csn"),
-"sad": SubResource("Animation_mj13c")
+&"RESET": SubResource("Animation_adc4x"),
+&"aa": SubResource("Animation_dskxc"),
+&"angry": SubResource("Animation_8ji55"),
+&"blink": SubResource("Animation_qav25"),
+&"blinkLeft": SubResource("Animation_au6b2"),
+&"blinkRight": SubResource("Animation_mgatf"),
+&"ee": SubResource("Animation_nv5v2"),
+&"happy": SubResource("Animation_moemf"),
+&"ih": SubResource("Animation_babbp"),
+&"lookDown": SubResource("Animation_jh5yo"),
+&"lookDownRaw": SubResource("Animation_hyjh1"),
+&"lookLeft": SubResource("Animation_iv08k"),
+&"lookLeftRaw": SubResource("Animation_skqqx"),
+&"lookRight": SubResource("Animation_41ynp"),
+&"lookRightRaw": SubResource("Animation_o5a6f"),
+&"lookUp": SubResource("Animation_4rlhi"),
+&"lookUpRaw": SubResource("Animation_tsism"),
+&"neutral": SubResource("Animation_ysa1f"),
+&"oh": SubResource("Animation_mdek1"),
+&"ou": SubResource("Animation_1nqgh"),
+&"relaxed": SubResource("Animation_y8csn"),
+&"sad": SubResource("Animation_mj13c")
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_x3ggu"]
 _data = {
-"ANIM_mocap_lyuma_08": ExtResource("6_vtu0q")
+&"ANIM_mocap_lyuma_08": ExtResource("6_vtu0q")
 }
 
 [node name="Node3D" type="Node3D"]
@@ -3692,9 +3692,9 @@ _data = {
 [node name="ReferenceFire" parent="." instance=ExtResource("1_c8b2w")]
 vrm_meta = SubResource("Resource_dw6vx")
 update_secondary_fixed = true
-spring_bones = Array[ExtResource("4_53nyw")]([SubResource("Resource_uesuo"), SubResource("Resource_8kutb"), SubResource("Resource_xkywk"), SubResource("Resource_hcin7"), SubResource("Resource_2e3io"), SubResource("Resource_qd7a5"), SubResource("Resource_1ql11"), SubResource("Resource_8gd7e"), SubResource("Resource_6v4x4"), SubResource("Resource_rbvp7"), SubResource("Resource_ipvx2"), SubResource("Resource_72ykc"), SubResource("Resource_jghsu"), SubResource("Resource_j4usb"), SubResource("Resource_v4yx2"), SubResource("Resource_qlm2b"), SubResource("Resource_41rqd"), SubResource("Resource_7f7lo"), SubResource("Resource_sw7ah"), SubResource("Resource_kav3c"), SubResource("Resource_cdjum"), SubResource("Resource_o46bt"), SubResource("Resource_bp2e8"), SubResource("Resource_5yhgp"), SubResource("Resource_vm6tf"), SubResource("Resource_81dbi"), SubResource("Resource_fkadt"), SubResource("Resource_2yw37"), SubResource("Resource_qgqhh"), SubResource("Resource_jgxhk"), SubResource("Resource_f7weu"), SubResource("Resource_53mxb"), SubResource("Resource_ff13u"), SubResource("Resource_je8s5")])
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc"), SubResource("Resource_jrb8e")])
-collider_library = Array[ExtResource("2_vgcah")]([SubResource("Resource_60f8m"), SubResource("Resource_qg36t"), SubResource("Resource_js18t"), SubResource("Resource_xapto"), SubResource("Resource_gtya5"), SubResource("Resource_ocvls"), SubResource("Resource_l6pi0"), SubResource("Resource_i2elu"), SubResource("Resource_ehahe"), SubResource("Resource_teifl"), SubResource("Resource_rw05t"), SubResource("Resource_nakvs"), SubResource("Resource_v60vq"), SubResource("Resource_x8474"), SubResource("Resource_rinfb"), SubResource("Resource_onjik"), SubResource("Resource_7e3iy"), SubResource("Resource_agbp3"), SubResource("Resource_mbymw"), SubResource("Resource_ktwfg"), SubResource("Resource_li8rs"), SubResource("Resource_5n13x"), SubResource("Resource_78dat"), SubResource("Resource_7a7qc"), SubResource("Resource_o8p4d"), SubResource("Resource_eul7g"), SubResource("Resource_xahcy"), SubResource("Resource_npd5a"), SubResource("Resource_svcv4"), SubResource("Resource_8y52u"), SubResource("Resource_8adw3"), SubResource("Resource_0xbin")])
+spring_bones = Array[ExtResource("4_53nyw")]([SubResource("Resource_ut2cs"), SubResource("Resource_1t1ei"), SubResource("Resource_hcxj1"), SubResource("Resource_rjwh7"), SubResource("Resource_om1xd"), SubResource("Resource_ap4fy"), SubResource("Resource_agx2w"), SubResource("Resource_dl54g"), SubResource("Resource_k13np"), SubResource("Resource_ok6wk"), SubResource("Resource_bnoxy"), SubResource("Resource_pjgf8"), SubResource("Resource_ij3ka"), SubResource("Resource_3dgyo"), SubResource("Resource_oa25a"), SubResource("Resource_uywc6"), SubResource("Resource_tkhra"), SubResource("Resource_e266k"), SubResource("Resource_30awy"), SubResource("Resource_nr0tm"), SubResource("Resource_1x5t8"), SubResource("Resource_4x2ff"), SubResource("Resource_i0nxl"), SubResource("Resource_ndcc4"), SubResource("Resource_dvy5v"), SubResource("Resource_ejwd5"), SubResource("Resource_l057g"), SubResource("Resource_f7fln"), SubResource("Resource_0jras"), SubResource("Resource_1nclo"), SubResource("Resource_8vlau"), SubResource("Resource_5e2ke"), SubResource("Resource_qaeak"), SubResource("Resource_xa46a")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd"), SubResource("Resource_bkwk5")])
+collider_library = Array[ExtResource("2_vgcah")]([SubResource("Resource_ujs50"), SubResource("Resource_dnho2"), SubResource("Resource_r8rqq"), SubResource("Resource_4l6jc"), SubResource("Resource_ttkty"), SubResource("Resource_qjxvg"), SubResource("Resource_y66sa"), SubResource("Resource_m5sdb"), SubResource("Resource_hvl43"), SubResource("Resource_df7si"), SubResource("Resource_gpeyj"), SubResource("Resource_jmffi"), SubResource("Resource_cpvaq"), SubResource("Resource_5yrw4"), SubResource("Resource_bytdk"), SubResource("Resource_58f0e"), SubResource("Resource_3ljw0"), SubResource("Resource_m5yy7"), SubResource("Resource_j26xs"), SubResource("Resource_q4aki"), SubResource("Resource_653ff"), SubResource("Resource_pvoal"), SubResource("Resource_ihsll"), SubResource("Resource_mpbu5"), SubResource("Resource_r67tb"), SubResource("Resource_qwynf"), SubResource("Resource_x406k"), SubResource("Resource_od7ri"), SubResource("Resource_v6bad"), SubResource("Resource_0q7r0"), SubResource("Resource_7ga7w"), SubResource("Resource_ri7le")])
 
 [node name="GeneralSkeleton" parent="ReferenceFire" index="0"]
 bones/1/position = Vector3(0.263506, 0.801735, -0.0268729)
@@ -3704,8 +3704,8 @@ bones/3/rotation = Quaternion(0.0530326, 0.0110617, 0.0252024, 0.998213)
 bones/4/rotation = Quaternion(5.23774e-05, 3.56435e-05, -6.48943e-05, 1)
 bones/5/rotation = Quaternion(0.040941, -0.000592822, 0.00489248, 0.999149)
 bones/6/rotation = Quaternion(-0.156597, -0.0137249, 0.0293707, 0.98713)
-bones/7/rotation = Quaternion(0.707107, 0, 0, 0.707107)
-bones/8/rotation = Quaternion(0.707107, 0, 0, 0.707107)
+bones/7/rotation = Quaternion(0.7071068, 0, 0, 0.7071068)
+bones/8/rotation = Quaternion(0.7071068, 0, 0, 0.7071068)
 bones/95/rotation = Quaternion(0.56404, 0.413137, 0.598123, -0.391696)
 bones/96/rotation = Quaternion(-0.0153917, 0.913077, -0.404369, -0.0503815)
 bones/97/rotation = Quaternion(0.10805, -0.73275, 0.111872, 0.662486)
@@ -3757,11 +3757,10 @@ metadata/merged_skeleton_bone_owners = {}
 [node name="Mire_Ms_Fleur_Dress" parent="ReferenceFire/GeneralSkeleton" index="1"]
 visible = false
 
-[node name="Head" parent="ReferenceFire/GeneralSkeleton" index="5"]
-transform = Transform3D(0.99004, -0.140605, -0.00707926, 0.140613, 0.990065, 0.000586144, 0.00692651, -0.00157574, 0.999975, 0.217867, 1.28701, 0.0486285)
-bone_idx = 6
+[node name="Head" parent="ReferenceFire/GeneralSkeleton" index="4"]
+transform = Transform3D(0.98756504, -0.15706691, 0.0067443624, 0.15699752, 0.98755026, 0.009815961, -0.008202169, -0.008635104, 0.9999291, 0.22502795, 1.284309, 0.04813808)
 
-[node name="TargetFire" parent="ReferenceFire/GeneralSkeleton" index="6" instance=ExtResource("1_c8b2w")]
+[node name="TargetFire" parent="ReferenceFire/GeneralSkeleton" index="5" instance=ExtResource("1_c8b2w")]
 spring_bones = Array[ExtResource("4_53nyw")]([SubResource("Resource_l0qaa"), SubResource("Resource_gltd4"), SubResource("Resource_o4iv5"), SubResource("Resource_4vnji"), SubResource("Resource_5vuai"), SubResource("Resource_tc8nj"), SubResource("Resource_gspnr"), SubResource("Resource_rmw3i"), SubResource("Resource_3d662"), SubResource("Resource_4jb0q"), SubResource("Resource_doefh"), SubResource("Resource_7ksct"), SubResource("Resource_31vkg"), SubResource("Resource_oacx5"), SubResource("Resource_opmwf"), SubResource("Resource_g2y55"), SubResource("Resource_dynl6"), SubResource("Resource_ufygk"), SubResource("Resource_tekpy"), SubResource("Resource_0bjkt"), SubResource("Resource_dy2b0"), SubResource("Resource_g0x7d"), SubResource("Resource_qgnyp"), SubResource("Resource_mm3yl"), SubResource("Resource_7hgfi"), SubResource("Resource_858kh"), SubResource("Resource_5ckn6"), SubResource("Resource_yr85m"), SubResource("Resource_wtiy5"), SubResource("Resource_fh2em"), SubResource("Resource_d4vdt"), SubResource("Resource_4r8c6"), SubResource("Resource_6uccr"), SubResource("Resource_hmu5b")])
 collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_rc70f"), SubResource("Resource_3m0um"), SubResource("Resource_0jhio"), SubResource("Resource_nmqgu"), SubResource("Resource_djbqn"), SubResource("Resource_ykyl7"), SubResource("Resource_ldjd7"), SubResource("Resource_vsed3"), SubResource("Resource_oylqv"), SubResource("Resource_smrmq"), SubResource("Resource_ccv0y"), SubResource("Resource_m7qc3"), SubResource("Resource_uj50e"), SubResource("Resource_hhydv"), SubResource("Resource_kngfi")])
 collider_library = Array[ExtResource("2_vgcah")]([SubResource("Resource_b2ks6"), SubResource("Resource_cuu67"), SubResource("Resource_le417"), SubResource("Resource_lfgvc"), SubResource("Resource_7td6f"), SubResource("Resource_fqx1q"), SubResource("Resource_tdj8q"), SubResource("Resource_cy6qa"), SubResource("Resource_co5jx"), SubResource("Resource_2o3qd"), SubResource("Resource_njtib"), SubResource("Resource_xon78"), SubResource("Resource_r7buk"), SubResource("Resource_80gvf"), SubResource("Resource_3ta2j"), SubResource("Resource_71c46"), SubResource("Resource_hwfbb"), SubResource("Resource_ebs53"), SubResource("Resource_wmvvs"), SubResource("Resource_2xl2a"), SubResource("Resource_hxy6u"), SubResource("Resource_f2weu"), SubResource("Resource_8fdgw"), SubResource("Resource_eplak"), SubResource("Resource_8jb58"), SubResource("Resource_im8kc"), SubResource("Resource_4dgfe"), SubResource("Resource_oq2od"), SubResource("Resource_ub1jk"), SubResource("Resource_s4bbm"), SubResource("Resource_8opai"), SubResource("Resource_667cq")])
@@ -3858,9 +3857,7 @@ bones/94/position = Vector3(0.023641, -0.0247307, -0.000974747)
 bones/95/position = Vector3(0.022983, 0.10846, -0.0307553)
 bones/96/position = Vector3(-1.67638e-08, 0.101497, -0.0144427)
 bones/97/position = Vector3(-0.0126074, 0.22562, 0.00064373)
-bones/97/scale = Vector3(1, 1, 1)
 bones/98/position = Vector3(0.000630736, 0.220317, -0.0121814)
-bones/98/scale = Vector3(1, 1, 1)
 bones/99/position = Vector3(-0.0193792, 0.0672629, -0.00731814)
 bones/100/position = Vector3(-4.6442e-05, 0.0341411, 0.000161648)
 bones/101/position = Vector3(0.000211958, 0.0210073, 0.000705481)
@@ -3879,28 +3876,22 @@ bones/113/position = Vector3(-0.00133741, 0.0293678, -0.00142998)
 bones/115/position = Vector3(7.45058e-09, 0.101497, -0.0144427)
 bones/116/position = Vector3(-0.000153398, 0.22562, 0.00064373)
 bones/116/rotation = Quaternion(0, -0.707107, 0, -0.707107)
-bones/116/scale = Vector3(1, 1, 1)
 bones/117/position = Vector3(-0.000630736, 0.220317, 0.000579464)
 bones/117/rotation = Quaternion(0, 0.707107, 0, -0.707107)
-bones/117/scale = Vector3(1, 1, 1)
 bones/118/position = Vector3(0.0193786, 0.0672631, -0.00731862)
 bones/118/rotation = Quaternion(0, 0, 0, -1)
-bones/118/scale = Vector3(1, 1, 1)
 bones/119/position = Vector3(4.66483e-05, 0.0341411, 0.000161648)
 bones/120/position = Vector3(-0.000211832, 0.0210072, 0.000705481)
 bones/121/position = Vector3(-0.03073, 0.0627281, -0.00691104)
 bones/121/rotation = Quaternion(0, 0, 0, -1)
-bones/121/scale = Vector3(1, 1, 1)
 bones/122/position = Vector3(-0.000201423, 0.0322669, 0.000172377)
 bones/123/position = Vector3(-0.000115741, 0.0185963, 0.000149131)
 bones/124/position = Vector3(0.00130681, 0.0681649, -0.00715542)
 bones/124/rotation = Quaternion(0, 0, 0, -1)
-bones/124/scale = Vector3(1, 1, 1)
 bones/125/position = Vector3(-8.45017e-05, 0.0380284, 0.000252843)
 bones/126/position = Vector3(-5.20479e-05, 0.0234607, 0.000166178)
 bones/127/position = Vector3(-0.0147373, 0.0673768, -0.00702059)
 bones/127/rotation = Quaternion(0, 0, 0, -1)
-bones/127/scale = Vector3(1, 1, 1)
 bones/128/position = Vector3(-0.000198286, 0.0352759, 0.000214577)
 bones/129/position = Vector3(-0.000114426, 0.0203579, 0.000124574)
 bones/130/position = Vector3(0.0157882, 0.00356281, 0.0101509)
@@ -3978,19 +3969,15 @@ visible = false
 skin = SubResource("Skin_85ihu")
 skeleton = NodePath("../../..")
 
-[node name="Body (Headless)" parent="ReferenceFire/GeneralSkeleton/TargetFire/GeneralSkeleton" index="3"]
+[node name="Hair" parent="ReferenceFire/GeneralSkeleton/TargetFire/GeneralSkeleton" index="3"]
 visible = false
 skin = SubResource("Skin_85ihu")
 skeleton = NodePath("../../..")
 
-[node name="Hair" parent="ReferenceFire/GeneralSkeleton/TargetFire/GeneralSkeleton" index="4"]
-visible = false
-skin = SubResource("Skin_85ihu")
-skeleton = NodePath("../../..")
-
-[node name="Head" parent="ReferenceFire/GeneralSkeleton/TargetFire/GeneralSkeleton" index="5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000263822, 1.42994, -0.0165089)
-bone_idx = 6
+[node name="Head" parent="ReferenceFire/GeneralSkeleton/TargetFire/GeneralSkeleton" index="4"]
+transform = Transform3D(0.98756504, -0.15706691, 0.0067443624, 0.15699752, 0.98755026, 0.009815961, -0.008202169, -0.008635104, 0.9999291, 0.22502795, 1.284309, 0.048140913)
+use_external_skeleton = true
+external_skeleton = NodePath("../../..")
 
 [node name="secondary" parent="ReferenceFire/GeneralSkeleton/TargetFire" index="1"]
 visible = false
@@ -4004,13 +3991,13 @@ reset_on_save = false
 
 [node name="secondary" parent="ReferenceFire" index="1"]
 update_secondary_fixed = true
-collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_1vyj3"), SubResource("Resource_x4h33"), SubResource("Resource_nljhe"), SubResource("Resource_n84tn"), SubResource("Resource_j8g3c"), SubResource("Resource_i1h2f"), SubResource("Resource_dj566"), SubResource("Resource_kbxg1"), SubResource("Resource_cr0nt"), SubResource("Resource_dvu3i"), SubResource("Resource_j27vv"), SubResource("Resource_bwh8v"), SubResource("Resource_f5bjb"), SubResource("Resource_bpmmc"), SubResource("Resource_jrb8e")])
-collider_library = Array[ExtResource("2_vgcah")]([SubResource("Resource_60f8m"), SubResource("Resource_qg36t"), SubResource("Resource_js18t"), SubResource("Resource_xapto"), SubResource("Resource_gtya5"), SubResource("Resource_ocvls"), SubResource("Resource_l6pi0"), SubResource("Resource_i2elu"), SubResource("Resource_ehahe"), SubResource("Resource_teifl"), SubResource("Resource_rw05t"), SubResource("Resource_nakvs"), SubResource("Resource_v60vq"), SubResource("Resource_x8474"), SubResource("Resource_rinfb"), SubResource("Resource_onjik"), SubResource("Resource_7e3iy"), SubResource("Resource_agbp3"), SubResource("Resource_mbymw"), SubResource("Resource_ktwfg"), SubResource("Resource_li8rs"), SubResource("Resource_5n13x"), SubResource("Resource_78dat"), SubResource("Resource_7a7qc"), SubResource("Resource_o8p4d"), SubResource("Resource_eul7g"), SubResource("Resource_xahcy"), SubResource("Resource_npd5a"), SubResource("Resource_svcv4"), SubResource("Resource_8y52u"), SubResource("Resource_8adw3"), SubResource("Resource_0xbin")])
+collider_groups = Array[ExtResource("3_xridl")]([SubResource("Resource_lv4il"), SubResource("Resource_77cw8"), SubResource("Resource_ao54m"), SubResource("Resource_tyyqg"), SubResource("Resource_as2ph"), SubResource("Resource_q2sbu"), SubResource("Resource_lmbxr"), SubResource("Resource_ayyxe"), SubResource("Resource_sds65"), SubResource("Resource_jgu18"), SubResource("Resource_ekvwu"), SubResource("Resource_e2fli"), SubResource("Resource_3dngb"), SubResource("Resource_a0agd"), SubResource("Resource_bkwk5")])
+collider_library = Array[ExtResource("2_vgcah")]([SubResource("Resource_ujs50"), SubResource("Resource_dnho2"), SubResource("Resource_r8rqq"), SubResource("Resource_4l6jc"), SubResource("Resource_ttkty"), SubResource("Resource_qjxvg"), SubResource("Resource_y66sa"), SubResource("Resource_m5sdb"), SubResource("Resource_hvl43"), SubResource("Resource_df7si"), SubResource("Resource_gpeyj"), SubResource("Resource_jmffi"), SubResource("Resource_cpvaq"), SubResource("Resource_5yrw4"), SubResource("Resource_bytdk"), SubResource("Resource_58f0e"), SubResource("Resource_3ljw0"), SubResource("Resource_m5yy7"), SubResource("Resource_j26xs"), SubResource("Resource_q4aki"), SubResource("Resource_653ff"), SubResource("Resource_pvoal"), SubResource("Resource_ihsll"), SubResource("Resource_mpbu5"), SubResource("Resource_r67tb"), SubResource("Resource_qwynf"), SubResource("Resource_x406k"), SubResource("Resource_od7ri"), SubResource("Resource_v6bad"), SubResource("Resource_0q7r0"), SubResource("Resource_7ga7w"), SubResource("Resource_ri7le")])
 
 [node name="AnimationPlayer" parent="ReferenceFire" index="2"]
 libraries = {
-"": SubResource("AnimationLibrary_effnx"),
-"TEST": SubResource("AnimationLibrary_x3ggu")
+&"": SubResource("AnimationLibrary_effnx"),
+&"TEST": SubResource("AnimationLibrary_x3ggu")
 }
 autoplay = "TEST/ANIM_mocap_lyuma_08"
 

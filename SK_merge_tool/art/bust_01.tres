@@ -1,12 +1,19 @@
-[gd_resource type="Resource" script_class="VRMSpringBone" load_steps=2 format=3 uid="uid://b83ks2mej0b4x"]
+[gd_resource type="Resource" script_class="VRMSpringBone" load_steps=3 format=3 uid="uid://b83ks2mej0b4x"]
 
-[ext_resource type="Script" path="res://addons/vrm/vrm_spring_bone.gd" id="1_i5sm2"]
+[ext_resource type="Script" uid="uid://ba3ef6cbarj8j" path="res://addons/vrm/vrm_spring_bone.gd" id="1_i5sm2"]
+[ext_resource type="Script" uid="uid://ckr8krhsaotkg" path="res://addons/vrm/vrm_collider_group.gd" id="1_pli0r"]
 
 [resource]
 resource_name = "Bust"
 script = ExtResource("1_i5sm2")
 comment = "Bust"
 joint_nodes = PackedStringArray("J_Sec_R_Bust1", "J_Sec_R_Bust2", "")
+stiffness_scale = 1.0
+drag_force_scale = 1.0
+hit_radius_scale = 1.0
+gravity_scale = 1.0
+gravity_dir_default = Vector3(0, -1, 0)
+collider_groups = Array[ExtResource("1_pli0r")]([])
 stiffness_force = PackedFloat64Array(32, 32, 32)
 gravity_power = PackedFloat64Array(0, 0, 0)
 gravity_dir = PackedVector3Array(0, -1, 0, 0, -1, 0, 0, -1, 0)
@@ -14,4 +21,3 @@ drag_force = PackedFloat64Array(0.05, 0.05, 0.05)
 hit_radius = PackedFloat64Array(0.02006, 0.02006, 0.02006)
 center_bone = "Root_"
 center_node = NodePath("")
-collider_groups = Array[Resource("res://addons/vrm/vrm_collider_group.gd")]([])
